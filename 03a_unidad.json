@@ -1,0 +1,486 @@
+{
+  "titulo": "unidad 3-A",
+  "instrucciones": "Seleccione la opción correcta. Todas las respuestas están fundamentadas en el PDF suministrado.",
+  "preguntas": [
+    {
+      "pregunta": "Según el modelo general de sistemas, la 'Retroalimentación (feedback)' se dirige directamente al:",
+      "opciones": {
+        "a": "Entorno.",
+        "b": "Límites.",
+        "c": "Proceso de Transformación.",
+        "d": "Salidas."
+      },
+      "correctas": [
+        "c"
+      ],
+      "explicaciones_correctas": {
+        "c": "El diagrama del Modelo General de Sistemas muestra que la flecha de la Retroalimentación se dirige hacia el 'Proceso de Transformación'."
+      }
+    },
+    {
+      "pregunta": "¿Qué componente del Modelo General de Sistemas establece la frontera del sistema, separándolo de su ambiente?",
+      "opciones": {
+        "a": "Subsistemas.",
+        "b": "Límites.",
+        "c": "Entradas.",
+        "d": "Proceso de Transformación."
+      },
+      "correctas": [
+        "b"
+      ],
+      "explicaciones_correctas": {
+        "b": "Los 'Límites' son uno de los componentes del Modelo General de Sistemas."
+      }
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes no es un 'Elemento de los Sistemas de Información' mencionado en el diagrama?",
+      "opciones": {
+        "a": "Recursos Humanos.",
+        "b": "Recursos Financieros.",
+        "c": "Recursos Metodológicos.",
+        "d": "Recursos Estratégicos."
+      },
+      "correctas": [
+        "d"
+      ],
+      "explicaciones_correctas": {
+        "d": "El Sistema de Información se compone de recursos humanos, materiales, financieros, tecnológicos, normativos y metodológicos."
+      }
+    },
+    {
+      "pregunta": "El 'Título' del proyecto es un elemento importante porque revela cosas acerca del autor, como su nivel de:",
+      "opciones": {
+        "a": "Asertividad y persuasión.",
+        "b": "Creatividad, capacidad de síntesis y orientación.",
+        "c": "Compromiso con las Metas.",
+        "d": "Habilidad para documentar."
+      },
+      "correctas": [
+        "b"
+      ],
+      "explicaciones_correctas": {
+        "b": "El Título 'Revela cosas importantes acerca del autor, como su nivel de creatividad, capacidad de síntesis y orientación'."
+      }
+    },
+    {
+      "pregunta": "La 'Justificación' del proyecto responde a la pregunta:",
+      "opciones": {
+        "a": "¿Qué se pretende lograr?",
+        "b": "¿Cómo se va a lograr?",
+        "c": "¿Por qué se quiere hacer lo que se quiere hacer?",
+        "d": "¿Quién se beneficia con el proyecto?"
+      },
+      "correctas": [
+        "c"
+      ],
+      "explicaciones_correctas": {
+        "c": "La Justificación 'Responde a por qué se quiere hacer lo que se quiere hacer'."
+      }
+    },
+    {
+      "pregunta": "La Justificación de la realización del proyecto debe explicar la prioridad y urgencia de cubrir una necesidad, ampliar un tema o:",
+      "opciones": {
+        "a": "Redactar el objetivo con un verbo en infinitivo.",
+        "b": "Descomponer el objetivo en Metas.",
+        "c": "Innovar en algún ámbito.",
+        "d": "Definir los Hitos del proyecto."
+      },
+      "correctas": [
+        "c"
+      ],
+      "explicaciones_correctas": {
+        "c": "Se debe explicar la prioridad y urgencia de 'cubrir una necesidad, ampliar o profundizar en algún tema o innovar en algún ámbito'."
+      }
+    },
+    {
+      "pregunta": "Los 'Beneficiarios' de un proyecto deben plantearse en función a:",
+      "opciones": {
+        "a": "El nivel de creatividad del autor.",
+        "b": "La problemática que se quiere resolver.",
+        "c": "El cronograma de actividades.",
+        "d": "La fecha de fin estricta."
+      },
+      "correctas": [
+        "b"
+      ],
+      "explicaciones_correctas": {
+        "b": "Los Beneficiarios 'Se debe plantear en función a la problemática que se quiere resolver'."
+      }
+    },
+    {
+      "pregunta": "La sección de 'Objetivo' del sistema responde a la pregunta:",
+      "opciones": {
+        "a": "¿Para qué se hace todo esto?",
+        "b": "¿Cuándo se finaliza el proyecto?",
+        "c": "¿Cómo se mide el progreso del proyecto?",
+        "d": "¿Quién es el responsable de las tareas?"
+      },
+      "correctas": [
+        "a"
+      ],
+      "explicaciones_correctas": {
+        "a": "El objetivo responde a '¿Para qué hago todo esto?'"
+      }
+    },
+    {
+      "pregunta": "Un objetivo debe cumplir con las condiciones de ser:",
+      "opciones": {
+        "a": "Flexible, atómico y congruente.",
+        "b": "Específico, urgente y medible.",
+        "c": "Factible, medible y congruente.",
+        "d": "Ampliamente definido y sin límites."
+      },
+      "correctas": [
+        "c"
+      ],
+      "explicaciones_correctas": {
+        "c": "Un objetivo 'debe cumplir con las condiciones de ser factible, medible y congruente'."
+      }
+    },
+    {
+      "pregunta": "La redacción de un objetivo debe iniciar con:",
+      "opciones": {
+        "a": "Un sustantivo descriptivo.",
+        "b": "Una pregunta abierta.",
+        "c": "Un verbo de acción en infinitivo.",
+        "d": "Una fecha de inicio estricta."
+      },
+      "correctas": [
+        "c"
+      ],
+      "explicaciones_correctas": {
+        "c": "La redacción de un objetivo 'debe iniciar con un verbo de acción en infinitivo'."
+      }
+    },
+    {
+      "pregunta": "Las 'Metas' se definen como:",
+      "opciones": {
+        "a": "El fin último y no descompuesto del proyecto.",
+        "b": "Los pasos realizables que van a llevar a la realización del objetivo.",
+        "c": "Momentos específicos del ciclo de vida del proyecto.",
+        "d": "La unidad mínima en la que se divide un proyecto."
+      },
+      "correctas": [
+        "b"
+      ],
+      "explicaciones_correctas": {
+        "b": "Las Metas 'Son los pasos realizables que van a llevarme a la realización del objetivo'."
+      }
+    },
+    {
+      "pregunta": "Las Metas ayudan a marcar el **roadmap** o ruta para llegar al objetivo, ¿cómo se consigue esto?",
+      "opciones": {
+        "a": "Definiendo los Límites del sistema.",
+        "b": "Descomponiendo al objetivo en distintos objetivos más chicos.",
+        "c": "Estableciendo la fecha de fin de las Tareas.",
+        "d": "A través de la Justificación del proyecto."
+      },
+      "correctas": [
+        "b"
+      ],
+      "explicaciones_correctas": {
+        "b": "Las Metas 'Descomponemos al objetivo en distintos objetivos mas chicos que van a marcarme el roadmap o ruta para llegar'."
+      }
+    },
+    {
+      "pregunta": "Un 'Hito' es un momento específico del ciclo de vida de un proyecto que se utiliza para:",
+      "opciones": {
+        "a": "Resolver una pequeña parte del objetivo final.",
+        "b": "Medir el progreso de un proyecto hasta el final.",
+        "c": "Definir el Alcance del sistema.",
+        "d": "Asignar responsables y supervisores."
+      },
+      "correctas": [
+        "b"
+      ],
+      "explicaciones_correctas": {
+        "b": "Los Hitos 'Se utilizan para medir el progreso de un proyecto hasta el final'."
+      }
+    },
+    {
+      "pregunta": "¿Cuál es la característica clave de los 'Hitos' en términos de tiempo?",
+      "opciones": {
+        "a": "Tienen una duración pero no una fecha fija.",
+        "b": "Tienen una fecha fija pero no una duración.",
+        "c": "Tienen una fecha de inicio y una fecha de fin estricta.",
+        "d": "Deben ser lo más flexibles posibles."
+      },
+      "correctas": [
+        "b"
+      ],
+      "explicaciones_correctas": {
+        "b": "Los Hitos 'Tienen una fecha fija pero no una duración'."
+      }
+    },
+    {
+      "pregunta": "Los Hitos pueden marcar la finalización de un grupo de tareas, de un módulo entero del proyecto o de:",
+      "opciones": {
+        "a": "Una Meta intermedia.",
+        "b": "Una Fase del mismo.",
+        "c": "Un Límite de no-alcance.",
+        "d": "La Justificación del proyecto."
+      },
+      "correctas": [
+        "b"
+      ],
+      "explicaciones_correctas": {
+        "b": "Pueden marcar la finalización 'de un modulo entero del proyecto o de una fase del mismo'."
+      }
+    },
+    {
+      "pregunta": "Las 'Tareas' se definen como la unidad mínima en la que se divide un proyecto, y se caracterizan por:",
+      "opciones": {
+        "a": "Tener una fecha fija pero no una duración.",
+        "b": "Resolver la totalidad del objetivo final.",
+        "c": "Tener una fecha de inicio, una duración y una fecha de fin (estricta o flexible).",
+        "d": "Ser siempre el resultado de la descomposición de un Hito."
+      },
+      "correctas": [
+        "c"
+      ],
+      "explicaciones_correctas": {
+        "c": "Las Tareas 'Tienen una fecha de inicio, una duración y una fecha de fin que puede ser estricta o flexible'."
+      }
+    },
+    {
+      "pregunta": "Las Tareas deben resolver una pequeña parte del objetivo final y ser lo más:",
+      "opciones": {
+        "a": "Flexibles posibles.",
+        "b": "Atómicas posibles.",
+        "c": "Generales posibles.",
+        "d": "Accesorias posibles."
+      },
+      "correctas": [
+        "b"
+      ],
+      "explicaciones_correctas": {
+        "b": "Las tareas deben resolver una pequeña parte del objetivo final y ser 'lo mas atómicas posibles'."
+      }
+    },
+    {
+      "pregunta": "El 'Cronograma' es un instrumento muy útil para:",
+      "opciones": {
+        "a": "Definir las Funcionalidades y los Límites.",
+        "b": "Realizar la justificación y definir los Beneficiarios.",
+        "c": "Planear y dar seguimiento a las actividades.",
+        "d": "Determinar la sinergia del sistema."
+      },
+      "correctas": [
+        "c"
+      ],
+      "explicaciones_correctas": {
+        "c": "El Cronograma 'Es un instrumento muy útil para planear y dar seguimiento a las actividades'."
+      }
+    },
+    {
+      "pregunta": "El Cronograma permite visualizar las tareas e hitos en:",
+      "opciones": {
+        "a": "Un diagrama de entidad-relación.",
+        "b": "Un tiempo predeterminado.",
+        "c": "Un listado de funcionalidades.",
+        "d": "Un modelo general de sistemas."
+      },
+      "correctas": [
+        "b"
+      ],
+      "explicaciones_correctas": {
+        "b": "El Cronograma 'Permite visualizar las tareas e hitos en un tiempo predeterminado'."
+      }
+    },
+    {
+      "pregunta": "¿Qué tipo de diagrama se menciona como ejemplo para visualizar el cronograma?",
+      "opciones": {
+        "a": "Diagrama de Flujo.",
+        "b": "Diagrama de Gantt.",
+        "c": "Diagrama de Venn.",
+        "d": "Diagrama de Clases."
+      },
+      "correctas": [
+        "b"
+      ],
+      "explicaciones_correctas": {
+        "b": "Se pueden hacer distintos diagramas para visualizar el cronograma (por ejemplo el GANTT)."
+      }
+    },
+    {
+      "pregunta": "El concepto de 'Límites' en la definición del sistema se describe como:",
+      "opciones": {
+        "a": "Los pasos realizables que llevan al objetivo.",
+        "b": "La frontera entre lo que el sistema hará y lo que no.",
+        "c": "El fruto de un estudio detallado sobre la población.",
+        "d": "El momento específico para medir el progreso."
+      },
+      "correctas": [
+        "b"
+      ],
+      "explicaciones_correctas": {
+        "b": "El Límite 'Es la frontera entre lo que el sistema hará y lo que no'."
+      }
+    },
+    {
+      "pregunta": "Respecto a los 'Límites' del sistema, ¿quiénes deben estar al tanto de ellos?",
+      "opciones": {
+        "a": "Únicamente el responsable de la Justificación.",
+        "b": "Solo los miembros del equipo de desarrollo.",
+        "c": "Tanto sponsors como miembros del equipo.",
+        "d": "Solo los Beneficiarios del proyecto."
+      },
+      "correctas": [
+        "c"
+      ],
+      "explicaciones_correctas": {
+        "c": "Es importante que 'tanto sponsors como miembros del equipo estén al tanto de los limites'."
+      }
+    },
+    {
+      "pregunta": "En la 'Definición del Sistema', es crucial distinguir entre aspectos:",
+      "opciones": {
+        "a": "De gestión y de control.",
+        "b": "Factibles y medibles.",
+        "c": "Esenciales, deseables y accesorios.",
+        "d": "Tangibles y lógicos."
+      },
+      "correctas": [
+        "c"
+      ],
+      "explicaciones_correctas": {
+        "c": "Debe tenerse muy claro 'Distinguir aquellos aspectos esenciales, deseables y accesorios'."
+      }
+    },
+    {
+      "pregunta": "Las 'Funcionalidades' del sistema se definen para cumplir:",
+      "opciones": {
+        "a": "La fecha de fin estricta.",
+        "b": "El objetivo.",
+        "c": "El rol del supervisor.",
+        "d": "La Entropía del sistema."
+      },
+      "correctas": [
+        "b"
+      ],
+      "explicaciones_correctas": {
+        "b": "Se definirán cada una de las funcionalidades que se realizarán 'para cumplir el objetivo'."
+      }
+    },
+    {
+      "pregunta": "Las funcionalidades se explican a través de puntos y 'bullet points', que son instrumentos gráficos que dan la posibilidad de:",
+      "opciones": {
+        "a": "Redactar objetivos en infinitivo.",
+        "b": "Enumerar, de una forma visualmente atractiva, los elementos.",
+        "c": "Determinar los Beneficiarios.",
+        "d": "Calcular la duración de las Tareas."
+      },
+      "correctas": [
+        "b"
+      ],
+      "explicaciones_correctas": {
+        "b": "Son instrumentos gráficos... que dan la posibilidad de 'enumerar, de una forma visualmente atractiva, los elementos'."
+      }
+    },
+    {
+      "pregunta": "Si el proyecto tiene una 'fecha de fin estricta', ¿cómo debe ser la planificación?",
+      "opciones": {
+        "a": "Debe ser flexible y abierta.",
+        "b": "Debe ser detallada para llegar a esa fecha.",
+        "c": "Debe enfocarse en las Funcionalidades de Apoyo.",
+        "d": "Debe priorizar los Hitos con duración variable."
+      },
+      "correctas": [
+        "b"
+      ],
+      "explicaciones_correctas": {
+        "b": "Se puede tener una fecha de fin estricta y 'se debe planificar para llegar a esa'."
+      }
+    },
+    {
+      "pregunta": "La 'Justificación' también debe explicar por qué:",
+      "opciones": {
+        "a": "El título es creativo.",
+        "b": "La solución propuesta es la mejor para cubrir la necesidad.",
+        "c": "Las Metas se descompusieron correctamente.",
+        "d": "El cronograma es flexible."
+      },
+      "correctas": [
+        "b"
+      ],
+      "explicaciones_correctas": {
+        "b": "Debe explicar la 'Justificación de por que esta solución es la mejor para lo anterior' (cubrir la necesidad/innovar)."
+      }
+    },
+    {
+      "pregunta": "En la Definición del Sistema, el Objetivo 'Marca el rumbo' de:",
+      "opciones": {
+        "a": "Únicamente la fase de Diseño.",
+        "b": "Todas las actividades.",
+        "c": "Solamente los Hitos.",
+        "d": "La redacción del Título."
+      },
+      "correctas": [
+        "b"
+      ],
+      "explicaciones_correctas": {
+        "b": "El objetivo 'Marca el rumbo de todas las actividades'."
+      }
+    },
+    {
+      "pregunta": "Si el Cronograma es flexible, ¿qué se puede flexibilizar?",
+      "opciones": {
+        "a": "La fecha de fin estricta.",
+        "b": "La planificación.",
+        "c": "El objetivo final.",
+        "d": "Los límites del sistema."
+      },
+      "correctas": [
+        "b"
+      ],
+      "explicaciones_correctas": {
+        "b": "Se puede tener una franja temporal para la entrega pero 'se puede flexibilizar la planificación'."
+      }
+    },
+    {
+      "pregunta": "¿Qué elemento del proyecto debe ser el fruto de un estudio detallado y se debe tener en cuenta en todo el desarrollo?",
+      "opciones": {
+        "a": "Los Hitos.",
+        "b": "Los Beneficiarios.",
+        "c": "Las Tareas.",
+        "d": "La Retroalimentación."
+      },
+      "correctas": [
+        "b"
+      ],
+      "explicaciones_correctas": {
+        "b": "Los Beneficiarios 'Es el fruto de un estudio detallado y se debe tener en cuenta en todo el desarrollo'."
+      }
+    },
+    {
+      "pregunta": "Las Funcionalidades del sistema extienden lo que se explicó en el:",
+      "opciones": {
+        "a": "Título y la Justificación.",
+        "b": "Objetivo y el Límite.",
+        "c": "Metas y Tareas.",
+        "d": "Hitos y Cronograma."
+      },
+      "correctas": [
+        "b"
+      ],
+      "explicaciones_correctas": {
+        "b": "Estamos expandiendo lo que explicamos en el 'objetivo y el límite'."
+      }
+    },
+    {
+      "pregunta": "Los recursos financieros, tecnológicos, normativos y metodológicos son componentes de un:",
+      "opciones": {
+        "a": "Sistema de Información.",
+        "b": "Hito específico.",
+        "c": "Modelo General de Sistemas.",
+        "d": "Proceso de transformación."
+      },
+      "correctas": [
+        "a"
+      ],
+      "explicaciones_correctas": {
+        "a": "Todos estos son recursos que componen un Sistema de Información."
+      }
+    }
+  ]
+}

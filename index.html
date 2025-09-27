@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cuestionario</title>
+    <link rel="stylesheet" href="styles.css" /> 
+</head>
+<body>
+
+    <div class="quiz-selection">
+        <h1>Ingenieria de software</h1>
+        <button class="quiz-btn" data-quiz="0">Ingenieria - unidad 1</button>
+        <button class="quiz-btn" data-quiz="1">Introducción a los sistemas - unidad 2</button>
+        <button class="quiz-btn" data-quiz="2">Introducción a la gestion de proyectos - unidad 3-A</button>
+        <button class="quiz-btn" data-quiz="3">Introducción a la gestion de proyectos - unidad 3-B</button>
+        <button class="quiz-btn" data-quiz="4">Etapas y fases - unidad 4</button>
+    </div>
+
+    <div class="quiz-container" style="display: none;">
+        <h1 id="selected-quiz-title"></h1> 
+        
+        <h2 id="question"></h2>
+        <div id="options"></div>
+        <p id="feedback"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

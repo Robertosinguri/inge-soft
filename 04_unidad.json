@@ -1,0 +1,500 @@
+{
+    "titulo": "unidad 4",
+    "instrucciones": "Seleccione la opción correcta. Todas las respuestas están fundamentadas en el PDF suministrado.",
+    "preguntas": [
+        {
+            "pregunta": "La 'Ingeniería de Software' se define como la aplicación de un enfoque sistemático, disciplinado y cuantificable, que implica el uso de estructuras, herramientas y técnicas para:",
+            "opciones": {
+                "a": "Redactar objetivos y metas.",
+                "b": "Construir programas informáticos.",
+                "c": "Establecer la factibilidad económica de un proyecto.",
+                "d": "Definir los límites de un sistema."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "La Ingeniería de Software es la aplicación de un enfoque sistemático, disciplinado y cuantificable... para 'construir programas informáticos'."
+            }
+        },
+        {
+            "pregunta": "¿Cuál de las siguientes es una de las 5 etapas de la Ingeniería de Software mencionadas en el documento?",
+            "opciones": {
+                "a": "Planificación de Recursos Humanos.",
+                "b": "Análisis de Requerimientos.",
+                "c": "Gestión de Riesgos.",
+                "d": "Implementación de Calidad."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "Las etapas de la Ingeniería de Software incluyen: Análisis de Requerimientos, Diseño de Sistema, Desarrollo de Software, Pruebas de Calidad e Implementación y Evaluación."
+            }
+        },
+        {
+            "pregunta": "Según Sommerville (2005), el 'Proceso Software' es un conjunto de actividades y resultados asociados que producen un:",
+            "opciones": {
+                "a": "Plan de Marketing.",
+                "b": "Producto de software.",
+                "c": "Diagrama de Gantt.",
+                "d": "Estudio de factibilidad."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "El Proceso Software (Sommerville 2005) 'Es un conjunto de actividades y resultados asociados que producen un producto de software'."
+            }
+        },
+        {
+            "pregunta": "Si la 'receta de cómo hacer una torta' es el detalle del Proceso Software, ¿qué representa la 'torta' en esta analogía?",
+            "opciones": {
+                "a": "La documentación asociada.",
+                "b": "El producto software.",
+                "c": "El análisis de requerimientos.",
+                "d": "El ciclo de vida."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "El ejemplo establece que 'La receta de cómo hacer una torta sería el detalle del proceso' y 'La torta es el producto'."
+            }
+        },
+        {
+            "pregunta": "El 'Producto Software' consiste en programas desarrollados y en:",
+            "opciones": {
+                "a": "Los requerimientos de hardware.",
+                "b": "La documentación asociada.",
+                "c": "Los informes de factibilidad.",
+                "d": "Los costos de mantenimiento."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "El Producto Software 'Consiste en programas desarrollados y en la documentación asociada'."
+            }
+        },
+        {
+            "pregunta": "Las 'Fases del Ciclo de Vida de Desarrollo' se caracterizan por generar un conjunto de salidas concretas y medibles, que se materializan en documentación y en:",
+            "opciones": {
+                "a": "Recursos humanos.",
+                "b": "Metodologías ágiles.",
+                "c": "Resultados (paquete software, prototipo, etc.).",
+                "d": "Entrevistas estructuradas."
+            },
+            "correctas": ["c"],
+            "explicaciones_correctas": {
+                "c": "Cada fase se caracteriza por generar un conjunto de salidas concretas y medibles (entregas o hitos) que se materializan en documentación y en 'resultados (paquete software, prototipo, etc.)'."
+            }
+        },
+        {
+            "pregunta": "La principal diferencia entre el 'Ciclo de Vida' y el 'Ciclo de Desarrollo' de un sistema radica en que el Ciclo de Vida abarca:",
+            "opciones": {
+                "a": "Solo del análisis hasta la entrega al usuario.",
+                "b": "Toda la vida del sistema, desde la concepción hasta el fin de uso.",
+                "c": "Únicamente la implementación y el mantenimiento.",
+                "d": "Solamente las fases de codificación y prueba."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "Ciclo de vida es 'Toda la vida del sistema: desde la concepción hasta el fin de uso', mientras que el Ciclo de desarrollo es 'Desde el análisis hasta la entrega al usuario'."
+            }
+        },
+        {
+            "pregunta": "Un 'Ciclo de Vida' de un proyecto define, entre otras cosas, cómo se revisará y validará cada hito, entrega y:",
+            "opciones": {
+                "a": "El rol del cliente.",
+                "b": "El fin de cada fase, tarea y actividad.",
+                "c": "La factibilidad económica.",
+                "d": "El estudio de mercado."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "Un Ciclo de Vida define 'Cómo se revisará y validará cada hito, entrega y el fin de cada fase, tarea y actividad'."
+            }
+        },
+        {
+            "pregunta": "Una de las ventajas del empleo de fases en el Ciclo de Vida es que divide un problema complejo en otros de menor complejidad que aún son manejables desde el punto de vista:",
+            "opciones": {
+                "a": "Financiero y comercial.",
+                "b": "Técnico y de gestión.",
+                "c": "Operativo y legal.",
+                "d": "Político y social."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "Divide un problema complejo en otros... que aún son manejables desde el punto de vista 'técnico y de gestión'."
+            }
+        },
+        {
+            "pregunta": "¿Qué permite conocer con más certeza el empleo de fases en el Ciclo de Vida del Desarrollo?",
+            "opciones": {
+                "a": "El nivel de aceptación por los usuarios.",
+                "b": "El grado de avance del proyecto.",
+                "c": "Los costos operacionales.",
+                "d": "La legislación aplicable."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "Una de las ventajas es que 'Permite conocer con más certeza el grado de avance del proyecto'."
+            }
+        },
+        {
+            "pregunta": "La 'Primera definición del objetivo del proyecto' se realiza en la fase de:",
+            "opciones": {
+                "a": "Planeación.",
+                "b": "Modelado.",
+                "c": "Inicio - Investigación.",
+                "d": "Construcción."
+            },
+            "correctas": ["c"],
+            "explicaciones_correctas": {
+                "c": "La fase de 'Inicio - Investigación' incluye la 'Primera definición del objetivo del proyecto'."
+            }
+        },
+        {
+            "pregunta": "En la fase de 'Inicio - Investigación', se realiza un análisis de posibles alternativas para cubrir las necesidades y:",
+            "opciones": {
+                "a": "Deficiencias.",
+                "b": "Pruebas de calidad.",
+                "c": "Actividades de mantenimiento.",
+                "d": "Productos de software."
+            },
+            "correctas": ["a"],
+            "explicaciones_correctas": {
+                "a": "La fase de Inicio incluye 'Análisis de posibles alternativas para cubrir las necesidades y deficiencias'."
+            }
+        },
+        {
+            "pregunta": "Una de las ventajas de realizar un 'Estudio de Factibilidad' es que facilita descartar proyectos que no generen beneficios a sus empresas o sean:",
+            "opciones": {
+                "a": "Muy largos.",
+                "b": "Inviables técnicamente.",
+                "c": "Demasiado simples.",
+                "d": "Con alta retroalimentación."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "Permite descartar proyectos que no generen beneficios a sus empresas o sean 'inviables técnicamente'."
+            }
+        },
+        {
+            "pregunta": "El 'Estudio de Factibilidad' permite que el nivel gerencial pueda decidir si es posible y si se justifica:",
+            "opciones": {
+                "a": "La capacitación de los recursos.",
+                "b": "Comenzar con el proyecto o no.",
+                "c": "El uso de preguntas abiertas.",
+                "d": "La elaboración de la documentación."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "Permite que el nivel gerencial pueda decidir 'si es posible y si se justifica comenzar con el proyecto o no'."
+            }
+        },
+        {
+            "pregunta": "El enfoque de 'Factibilidad Operativa' se pregunta si el sistema tendrá aceptación por parte de la organización y:",
+            "opciones": {
+                "a": "¿Existe la tecnología que se necesita?",
+                "b": "¿Tendrá experiencia en su utilización?",
+                "c": "¿Será usado si se desarrolla el sistema?",
+                "d": "¿Cuáles son los costos de desarrollo?"
+            },
+            "correctas": ["c"],
+            "explicaciones_correctas": {
+                "c": "La Factibilidad Operativa se pregunta: 'Si se desarrolla el sistema, ¿será usado?'."
+            }
+        },
+        {
+            "pregunta": "La 'Factibilidad Técnica' evalúa si se cuenta con la tecnología necesaria, si hay experiencia en su utilización y si será necesaria la:",
+            "opciones": {
+                "a": "Aceptación de la solución propuesta.",
+                "b": "Capacitación de los recursos para su utilización.",
+                "c": "Definición de beneficios intangibles.",
+                "d": "Creación de un plan de trabajo."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "La Factibilidad Técnica se pregunta: '¿Será necesaria la capacitación de los recursos para su utilización?'."
+            }
+        },
+        {
+            "pregunta": "¿Qué tipo de factibilidad realiza un análisis costo-beneficio y verifica la disponibilidad de fondos para el proyecto?",
+            "opciones": {
+                "a": "Factibilidad Operativa.",
+                "b": "Factibilidad Técnica.",
+                "c": "Factibilidad Económica.",
+                "d": "Factibilidad Comercial."
+            },
+            "correctas": ["c"],
+            "explicaciones_correctas": {
+                "c": "La Factibilidad Económica 'realiza un análisis costo beneficio a la vez que verifica la disponibilidad de fondos'."
+            }
+        },
+        {
+            "pregunta": "La 'Factibilidad Económica' se pregunta por los beneficios del proyecto, ya sean:",
+            "opciones": {
+                "a": "Operativos y técnicos.",
+                "b": "Legales y políticos.",
+                "c": "Tangibles e intangibles.",
+                "d": "Comerciales y temporales."
+            },
+            "correctas": ["c"],
+            "explicaciones_correctas": {
+                "c": "La Factibilidad Económica se pregunta: '¿Cuáles son los beneficios (tangibles e intangibles) del proyecto?'."
+            }
+        },
+        {
+            "pregunta": "Además de la Factibilidad Operativa, Técnica y Económica, el documento lista la Factibilidad Comercial, la Factibilidad Política y Legal y la Factibilidad:",
+            "opciones": {
+                "a": "De Recursos Humanos.",
+                "b": "De Metodología.",
+                "c": "De Tiempo.",
+                "d": "De Alcance."
+            },
+            "correctas": ["c"],
+            "explicaciones_correctas": {
+                "c": "Los tipos de factibilidad listados son: Operativa, Técnica, Económica, Comercial, Política y legal, y De tiempo."
+            }
+        },
+        {
+            "pregunta": "En la Fase 1 ('Investigación'), el segundo paso es 'Identificar problemas, oportunidades y objetivos' y luego, 'Determinar requisitos'. ¿Cuál es el tercer paso en este diagrama cíclico?",
+            "opciones": {
+                "a": "Diseñar (Análisis y Diseño).",
+                "b": "Probar (Pruebas).",
+                "c": "Implementar (Implementación).",
+                "d": "Desarrollar (Codificación)."
+            },
+            "correctas": ["a"],
+            "explicaciones_correctas": {
+                "a": "El diagrama cíclico de fases muestra después de 'Análisis' (Identificar... Objetivos / Determinar requisitos) la fase de 'Diseñar' (Análisis y Diseño)."
+            }
+        },
+        {
+            "pregunta": "Una 'Encuesta' por sí sola no es de utilidad, sino que los datos recolectados deben ser sometidos a cierto proceso de:",
+            "opciones": {
+                "a": "Despliegue.",
+                "b": "Tratamiento de datos.",
+                "c": "Capacitación.",
+                "d": "Modelado."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "Los datos recolectados por encuestas 'deben ser sometidos a cierto proceso de tratamiento de datos para que puedan convertirse en información útil'."
+            }
+        },
+        {
+            "pregunta": "Una 'Entrevista' consiste en un encuentro presencial, en vivo, frente a frente con la persona especializada (Persona que realiza una tarea específica o:",
+            "opciones": {
+                "a": "La que realiza la factibilidad económica.",
+                "b": "El diseñador del software.",
+                "c": "Quién encarga el sistema.",
+                "d": "El experto en lenguaje de programación."
+            },
+            "correctas": ["c"],
+            "explicaciones_correctas": {
+                "c": "La entrevista es con la 'persona especializada (Persona que realiza una tarea específica o quién encarga el sistema)'."
+            }
+        },
+        {
+            "pregunta": "En la preparación de una entrevista, uno de los pasos principales es 'Establecer los objetivos' y 'Decidir a quién entrevistar'. Otro paso es 'Decidir los tipos de preguntas y la estructura', que pueden ser:",
+            "opciones": {
+                "a": "De múltiple opción o de única opción.",
+                "b": "Abiertas o cerradas.",
+                "c": "De factibilidad o de diseño.",
+                "d": "De planificación o de construcción."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "La preparación incluye 'Decidir los tipos de preguntas y la estructura' que pueden ser 'Preguntas abiertas o cerradas'."
+            }
+        },
+        {
+            "pregunta": "La Segunda Fase del Ciclo de Vida es la 'Planeación'. En esta fase se crea un 'mapa' llamado 'plan del proyecto de software' que define el trabajo al describir los riesgos probables, los recursos que se requieren y una:",
+            "opciones": {
+                "a": "Actividad de mantenimiento.",
+                "b": "Programación de las actividades.",
+                "c": "Evaluación de la factibilidad económica.",
+                "d": "Definición del producto de software."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "El plan del proyecto de software describe... 'una programación de las actividades'."
+            }
+        },
+        {
+            "pregunta": "La Tercera Fase es el 'Modelado'. Esta fase responde a preguntas como: '¿Qué debe hacer el sistema?' y '¿Qué cosas hará el sistema y que cosas no hará?' y:",
+            "opciones": {
+                "a": "¿Quiénes son los responsables del mantenimiento?",
+                "b": "¿Qué usuarios interactúan con el sistema?",
+                "c": "¿Cómo se realiza el análisis costo-beneficio?",
+                "d": "¿Cuáles son los límites de tiempo?"
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "La fase de Modelado se pregunta: '¿Qué usuarios interactúan con el sistema?'."
+            }
+        },
+        {
+            "pregunta": "Un 'Modelo' se define como una:",
+            "opciones": {
+                "a": "Función matemática compleja.",
+                "b": "Representación de la realidad.",
+                "c": "Actividad de codificación manual.",
+                "d": "Especificación de hardware."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "Modelo: 'Es una representación de la realidad'."
+            }
+        },
+        {
+            "pregunta": "El 'Modelo de Procesos del Software' es una **abstracción** de un proceso real. La Abstracción es un proceso mental para representar:",
+            "opciones": {
+                "a": "Códigos fuente específicos.",
+                "b": "Características y propiedades de determinadas cosas del mundo real.",
+                "c": "Las etapas humorísticas de un proyecto.",
+                "d": "El fin de uso de un sistema."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "Abstracción: 'Proceso mental para representar características y propiedades de determinadas cosas del mundo real'."
+            }
+        },
+        {
+            "pregunta": "La Cuarta Fase es la 'Construcción'. Esta fase combina la generación de código (manual o automatizada) y:",
+            "opciones": {
+                "a": "Las primeras estimaciones de costos.",
+                "b": "Las encuestas a los usuarios finales.",
+                "c": "Las pruebas que se requieren para descubrir errores en éste.",
+                "d": "El estudio inicial de viabilidad."
+            },
+            "correctas": ["c"],
+            "explicaciones_correctas": {
+                "c": "La Construcción 'Combina la generación de código (ya sea manual o automatizada) y las pruebas que se requieren para descubrir errores en éste'."
+            }
+        },
+        {
+            "pregunta": "La Quinta Fase es el 'Despliegue'. Esta fase incluye las acciones de entrega, capacitación, retroalimentación y:",
+            "opciones": {
+                "a": "Modelado de procesos.",
+                "b": "Mantenimiento.",
+                "c": "Diseño de la base de datos.",
+                "d": "Análisis de requerimientos."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "La fase de Despliegue 'Incluye las acciones de entrega, capacitación, retroalimentación y mantenimiento'."
+            }
+        },
+        {
+            "pregunta": "La fase de 'Mantenimiento' consiste en aplicar las soluciones apropiadas a cualquier problema del producto y:",
+            "opciones": {
+                "a": "Definir los nuevos límites del sistema.",
+                "b": "Re-liberar el producto mejorado, dándole una nueva versión.",
+                "c": "Revisar la legislación aplicable.",
+                "d": "Volver a realizar el estudio inicial de factibilidad."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "Mantenimiento: 'Consiste en aplicar las soluciones apropiadas a cualquier problema del producto y re- liberar el producto mejorado, dándole una nueva versión'."
+            }
+        },
+        {
+            "pregunta": "La 'Factibilidad Comercial' aborda la pregunta sobre la existencia de:",
+            "opciones": {
+                "a": "La tecnología necesaria.",
+                "b": "Un mercado para el producto o servicio.",
+                "c": "La aceptación por parte de la organización.",
+                "d": "La legislación aplicable."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "El punto 1 de las 'Ventajas' del estudio de factibilidad indica que ayuda a 'confirmar que existe un mercado para tu producto'."
+            }
+        },
+        {
+            "pregunta": "La Factibilidad Política y legal se relaciona con la pregunta sobre la:",
+            "opciones": {
+                "a": "Primera estimación de costos y plazos.",
+                "b": "Normativa y legislación aplicable.",
+                "c": "Viabilidad técnica del producto.",
+                "d": "Disponibilidad de recursos para invertir."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "La Factibilidad Política y legal se relaciona con la 'Normativa y legislación aplicables' de la fase de Inicio."
+            }
+        },
+        {
+            "pregunta": "La Factibilidad 'De Tiempo' tiene como objetivo central:",
+            "opciones": {
+                "a": "Determinar si el proyecto se puede completar en el plazo requerido.",
+                "b": "Analizar los aspectos sociales y de las personas.",
+                "c": "Realizar el análisis costo-beneficio.",
+                "d": "Garantizar la construcción del código."
+            },
+            "correctas": ["a"],
+            "explicaciones_correctas": {
+                "a": "La Factibilidad 'De tiempo' evalúa si el proyecto puede ser completado dentro de un plazo requerido."
+            }
+        },
+        {
+            "pregunta": "¿Cuál de los siguientes no es un 'Modelo genérico' o paradigma de desarrollo de software mencionado en el documento?",
+            "opciones": {
+                "a": "El enfoque en cascada.",
+                "b": "Desarrollo Evolutivo.",
+                "c": "Modelo Z.",
+                "d": "Prototipo."
+            },
+            "correctas": ["c"],
+            "explicaciones_correctas": {
+                "c": "Los modelos genéricos mencionados incluyen: cascada, Iterativo Incremental, En Espiral, Modelo en V, RUP, Prototipo y Desarrollo Evolutivo. El Modelo Z no está listado."
+            }
+        },
+        {
+            "pregunta": "En la Fase de 'Inicio - Investigación', se realiza un 'Estudio inicial de viabilidad técnica, económica, comercial, etc.' y la 'Estimación de necesidades y posibles problemas para realizar el proyecto', lo que es un ejemplo de:",
+            "opciones": {
+                "a": "Construcción de código.",
+                "b": "Mantenimiento preventivo.",
+                "c": "Análisis de riesgo.",
+                "d": "Despliegue de producto."
+            },
+            "correctas": ["c"],
+            "explicaciones_correctas": {
+                "c": "La 'Estimación de necesidades y posibles problemas' es un componente clave del análisis de riesgo en la fase de Inicio."
+            }
+        },
+        {
+            "pregunta": "Una 'Fase' del Ciclo de Vida de Desarrollo se define como un conjunto de actividades, con entidad propia y relacionadas entre sí, que cubren:",
+            "opciones": {
+                "a": "Un objetivo parcial del proyecto.",
+                "b": "Todas las tareas de la Construcción.",
+                "c": "Los recursos financieros y materiales.",
+                "d": "La definición del Título del proyecto."
+            },
+            "correctas": ["a"],
+            "explicaciones_correctas": {
+                "a": "Las Fases 'cubren un objetivo parcial del proyecto'."
+            }
+        },
+        {
+            "pregunta": "Una de las preguntas clave en la 'Factibilidad Operativa' es: '¿Cómo impactará este proyecto en el entorno de trabajo de los usuarios?' Lo que relaciona directamente la Factibilidad Operativa con los aspectos:",
+            "opciones": {
+                "a": "Financieros y de costo.",
+                "b": "Personales y sociales de la organización.",
+                "c": "De infraestructura tecnológica.",
+                "d": "De regulación y legislación."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "La Factibilidad Operativa 'Analiza aspectos de las personas y sociales de la organización'."
+            }
+        },
+        {
+            "pregunta": "En la 'Factibilidad Técnica', si no se dispone de la tecnología necesaria, la pregunta clave es:",
+            "opciones": {
+                "a": "¿Quién se hará cargo de los costos?",
+                "b": "¿Es posible adquirirla?",
+                "c": "¿Tendrá aceptación el sistema?",
+                "d": "¿El plazo es suficiente?"
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "La Factibilidad Técnica se pregunta: 'Si no se dispone de la tecnología ¿Es posible adquirirla?'."
+            }
+        }
+    ]
+}

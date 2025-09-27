@@ -1,0 +1,461 @@
+{
+    "titulo": "unidad 2",
+    "instrucciones": "Seleccione la opción correcta. Todas las respuestas están fundamentadas en el PDF suministrado.",
+    "preguntas": [
+        {
+            "pregunta": "El concepto de 'Dato' se utiliza en la toma de decisiones, pero por sí mismo, se caracteriza por:",
+            "opciones": {
+                "a": "Estar supervisado, procesado y ordenado.",
+                "b": "Permitir resolver problemas directamente.",
+                "c": "No tener sentido en sí mismo.",
+                "d": "Ser la base del conocimiento racional."
+            },
+            "correctas": ["c"],
+            "explicaciones_correctas": {
+                "c": "El 'Dato' 'no tiene sentido en sí mismo, sino que se utiliza en la toma de decisiones a partir de un procesamiento adecuado'."
+            }
+        },
+        {
+            "pregunta": "La 'Información' está constituida por un grupo de datos que han pasado por un proceso de:",
+            "opciones": {
+                "a": "Creación, almacenamiento y recuperación.",
+                "b": "Supervisión, procesamiento y ordenamiento.",
+                "c": "Generación de códigos, símbolos y lenguajes.",
+                "d": "Estabilización y alcance de límites."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "La 'Información' 'Está constituida por un grupo de datos ya supervisados, procesados y ordenados'."
+            }
+        },
+        {
+            "pregunta": "El aprovechamiento racional de la Información se identifica como la base de:",
+            "opciones": {
+                "a": "Los sistemas cerrados.",
+                "b": "El conocimiento.",
+                "c": "La toma de datos (capturados).",
+                "d": "La entropía."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "El aprovechamiento racional de la información 'es la base del conocimiento'."
+            }
+        },
+        {
+            "pregunta": "¿Cuál de los siguientes no es un objetivo perseguido por la generación u obtención de información, según el documento?",
+            "opciones": {
+                "a": "Aumentar el conocimiento del usuario.",
+                "b": "Proporcionar materia prima para el desarrollo de soluciones.",
+                "c": "Disminuir la entropía en sistemas cerrados.",
+                "d": "Proporcionar reglas de evaluación y decisión para fines de control."
+            },
+            "correctas": ["c"],
+            "explicaciones_correctas": {
+                "c": "Los objetivos son aumentar conocimiento, proporcionar materia prima para decisiones y proporcionar reglas de evaluación/decisión. La entropía se relaciona con el equilibrio en sistemas cerrados."
+            }
+        },
+        {
+            "pregunta": "La calidad de la información descansa sólidamente sobre tres pilares. Uno de ellos es la Exactitud, otro la Relevancia, y el tercero es:",
+            "opciones": {
+                "a": "Eficiencia.",
+                "b": "Oportunidad.",
+                "c": "Mantenibilidad.",
+                "d": "Sinergia."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "Los tres pilares de la calidad de la información son: Exactitud, Oportunidad y Relevancia."
+            }
+        },
+        {
+            "pregunta": "En el Ciclo de la Información, la 'SALIDA' de un PROCESO está constituida por:",
+            "opciones": {
+                "a": "Datos (capturados).",
+                "b": "Resultados.",
+                "c": "Información.",
+                "d": "Acción de Decisión."
+            },
+            "correctas": ["c"],
+            "explicaciones_correctas": {
+                "c": "El diagrama del Ciclo de la Información indica que el PROCESO produce una SALIDA que es (información)."
+            }
+        },
+        {
+            "pregunta": "En el Ciclo de la Información, ¿qué fase se encarga de recibir la SALIDA para generar una ACCIÓN DE DECISIÓN?",
+            "opciones": {
+                "a": "PROCESO.",
+                "b": "BASE DE DATOS.",
+                "c": "RECEPTOR.",
+                "d": "ENTRADA."
+            },
+            "correctas": ["c"],
+            "explicaciones_correctas": {
+                "c": "La SALIDA (información) se dirige al RECEPTOR, el cual pasa a la ACCIÓN DE DECISIÓN."
+            }
+        },
+        {
+            "pregunta": "Un 'Sistema' es un conjunto de elementos que se encuentran relacionados entre sí para:",
+            "opciones": {
+                "a": "Alcanzar su equilibrio con el medio (Entropía).",
+                "b": "Cumplir determinados objetivos.",
+                "c": "Permitir la generación de códigos y lenguajes.",
+                "d": "Operar únicamente sobre datos de salida."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "Sistema es un 'conjunto de elementos' que se 'encuentran relacionados entre sí' para 'cumplir determinados objetivos'."
+            }
+        },
+        {
+            "pregunta": "¿Cuál es la característica principal de los elementos de un sistema en funcionamiento?",
+            "opciones": {
+                "a": "Deben ser estáticos y aislados.",
+                "b": "Deben ser Dinámicamente relacionados (Movimiento o acción).",
+                "c": "Deben ser elementos físicos o abstractos, nunca mixtos.",
+                "d": "Deben limitar estrictamente las entradas y salidas."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "Los elementos del sistema 'Están Dinámicamente relacionados (Movimiento o acción)'."
+            }
+        },
+        {
+            "pregunta": "El principio de 'Sinergia' se define como:",
+            "opciones": {
+                "a": "El sistema alcanza su equilibrio al igualarse con el medio.",
+                "b": "El 'TODO' constituye más que la simple suma de sus partes.",
+                "c": "La capacidad de ser Abierto y Cerrado simultáneamente.",
+                "d": "El trabajo aislado para la realización de una tarea compleja."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "Sinergia: 'EL 'TODO' CONSTITUYE MAS QUE LA SIMPLE SUMA DE SUS PARTES'."
+            }
+        },
+        {
+            "pregunta": "Un 'Subsistema' se define como:",
+            "opciones": {
+                "a": "Un sistema que no tiene límites ni fronteras.",
+                "b": "Un conjunto de elementos relacionados que forman parte de un sistema más grande.",
+                "c": "El entorno o ambiente de un sistema.",
+                "d": "Un sistema que solo posee retroalimentación."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "El 'Sub Sistema' es un 'Conjunto de elementos relacionados que forman parte de un sistema más grande'."
+            }
+        },
+        {
+            "pregunta": "Según su clasificación por **constitución**, los sistemas pueden ser:",
+            "opciones": {
+                "a": "Abiertos y Cerrados.",
+                "b": "Vivientes y No Vivientes.",
+                "c": "Físicos y Abstractos.",
+                "d": "Simples y Complejos."
+            },
+            "correctas": ["c"],
+            "explicaciones_correctas": {
+                "c": "La clasificación por su constitución es Físicos y Abstractos."
+            }
+        },
+        {
+            "pregunta": "Los sistemas 'Abiertos' se caracterizan por:",
+            "opciones": {
+                "a": "Alcanzar su equilibrio al igualarse con el medio (Entropía).",
+                "b": "No establecer intercambios con su ambiente.",
+                "c": "Establecer intercambios permanentes con su ambiente.",
+                "d": "Ser siempre Adaptables y Dinámicos."
+            },
+            "correctas": ["c"],
+            "explicaciones_correctas": {
+                "c": "Sistemas 'Abiertos' son aquellos 'que establecen intercambios permanentes con su ambiente'."
+            }
+        },
+        {
+            "pregunta": "¿Qué concepto describe el punto de equilibrio que alcanzan los sistemas 'Cerrados' al igualarse con el medio?",
+            "opciones": {
+                "a": "Sinergia.",
+                "b": "Globalismo.",
+                "c": "Homeostasis.",
+                "d": "Entropía."
+            },
+            "correctas": ["d"],
+            "explicaciones_correctas": {
+                "d": "Los Sistemas Cerrados 'Alcanzan su equilibrio al igualarse con el medio (ENTROPÍA)'."
+            }
+        },
+        {
+            "pregunta": "El 'Sistema Informático' se define como un conjunto de elementos físicos y lógicos que se encargan de:",
+            "opciones": {
+                "a": "Asegurar la Entropía y Homeostasis del sistema.",
+                "b": "Recibir, guardar y procesar datos para luego entregarlos en forma de resultados.",
+                "c": "Definir los límites y el alcance del proyecto de software.",
+                "d": "Administrar los recursos humanos y financieros de una organización."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "Sistema Informático: 'Conjunto de elementos físicos y lógicos que se encargan de recibir, guardar y procesar datos para luego entregarlos en forma de resultados'."
+            }
+        },
+        {
+            "pregunta": "Según el documento, ¿qué engloba el esquema de un Sistema Informático?",
+            "opciones": {
+                "a": "Únicamente la parte lógica (software).",
+                "b": "Únicamente la parte tangible (hardware).",
+                "c": "Todo aquello que contiene una parte tangible (hardware) y otra lógica (software).",
+                "d": "Solo los recursos humanos y la base de datos."
+            },
+            "correctas": ["c"],
+            "explicaciones_correctas": {
+                "c": "El esquema de un sistema informático 'engloba todo aquello que contiene una parte tangible (hardware) y otra lógica (software)'."
+            }
+        },
+        {
+            "pregunta": "¿Cuál de los siguientes no es un 'Elemento de los Sistemas de Información' mencionado en el documento?",
+            "opciones": {
+                "a": "Recursos Financieros.",
+                "b": "Recursos Administrativos.",
+                "c": "Recursos Normativos.",
+                "d": "Recursos Estelares."
+            },
+            "correctas": ["d"],
+            "explicaciones_correctas": {
+                "d": "Los recursos mencionados son: humanos, materiales, financieros, tecnológicos, normativos y metodológicos, entre otros. 'Estelares' es un tipo de Sistema Físico, no un recurso del SI."
+            }
+        },
+        {
+            "pregunta": "La definición de 'Sistema de Información' en la sección 'Formalizando…' menciona que su objetivo es brindar información a quienes:",
+            "opciones": {
+                "a": "Diseñan la base de datos.",
+                "b": "Operan y a quienes toman decisiones.",
+                "c": "Definen la Entropía del sistema.",
+                "d": "Se dedican al Análisis de Sistemas exclusivamente."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "Están organizados para brindar información 'a quienes operan y a quienes toman decisiones'."
+            }
+        },
+        {
+            "pregunta": "¿Qué nivel en la pirámide organizacional sirve al grupo de los 'Directores'?",
+            "opciones": {
+                "a": "Nivel Operativo.",
+                "b": "Nivel Administrativo.",
+                "c": "Nivel de Conocimiento.",
+                "d": "Nivel Estratégico."
+            },
+            "correctas": ["d"],
+            "explicaciones_correctas": {
+                "d": "El 'Nivel Estratégico' sirve a los 'Directores'."
+            }
+        },
+        {
+            "pregunta": "Los 'Gerentes de Nivel Medio' son el grupo al que sirve el:",
+            "opciones": {
+                "a": "Nivel Operativo.",
+                "b": "Nivel Administrativo.",
+                "c": "Nivel de Conocimiento.",
+                "d": "Nivel Estratégico."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "El 'Nivel Administrativo' sirve a los 'Gerentes de Nivel Medio'."
+            }
+        },
+        {
+            "pregunta": "Los 'Trabajadores del Conocimiento y de Datos' se encuentran asociados al:",
+            "opciones": {
+                "a": "Nivel Operativo.",
+                "b": "Nivel Administrativo.",
+                "c": "Nivel de Conocimiento.",
+                "d": "Nivel Estratégico."
+            },
+            "correctas": ["c"],
+            "explicaciones_correctas": {
+                "c": "El 'Nivel de Conocimiento' sirve a los 'Trabajadores del Conocimiento y de Datos'."
+            }
+        },
+        {
+            "pregunta": "En el Nivel Operativo de la organización, los sistemas de información sirven al grupo de:",
+            "opciones": {
+                "a": "Directores.",
+                "b": "Gerentes de Nivel Medio.",
+                "c": "Trabajadores del Conocimiento.",
+                "d": "Gerentes Operativos."
+            },
+            "correctas": ["d"],
+            "explicaciones_correctas": {
+                "d": "El 'Nivel Operativo' sirve a los 'Gerentes Operativos'."
+            }
+        },
+        {
+            "pregunta": "En el Modelo General de Sistemas, ¿qué concepto describe el entorno inmediato del sistema, separándolo del ambiente?",
+            "opciones": {
+                "a": "Contexto o ambiente.",
+                "b": "Entradas y salidas.",
+                "c": "Límites.",
+                "d": "Subsistemas."
+            },
+            "correctas": ["c"],
+            "explicaciones_correctas": {
+                "c": "El Modelo General de Sistemas incluye 'Límites' para definir la frontera del sistema."
+            }
+        },
+        {
+            "pregunta": "Según las 'Premisas' del Estudio de los Sistemas, ¿cuál de las siguientes es correcta?",
+            "opciones": {
+                "a": "Los sistemas solo pueden ser cerrados o abiertos.",
+                "b": "La función del sistema depende de su estructura.",
+                "c": "Los sistemas no tienen límites definidos.",
+                "d": "La Homeostasis lleva a la Entropía."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "Una de las premisas es: 'LA FUNCIÓN DEPENDE DE SU ESTRUCTURA'."
+            }
+        },
+        {
+            "pregunta": "El 'Enfoque Sistémico' se define como la acción de:",
+            "opciones": {
+                "a": "Analizar las partes de forma individual y sumar los resultados.",
+                "b": "Analizar el sistema como un TODO y no como la suma de las partes.",
+                "c": "Interpretar la manera en que los Sistemas de Información cumplen su propósito.",
+                "d": "Estudiar la Homeostasis y la Entropía en sistemas físicos."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "El Enfoque Sistémico 'ANALIZA EL SISTEMA COMO UN TODO Y NO COMO LA SUMA DE LAS PARTES'."
+            }
+        },
+        {
+            "pregunta": "El 'Análisis de Sistemas' es una disciplina que tiene como objetivo:",
+            "opciones": {
+                "a": "Establecer la Sinergia entre los elementos lógicos y físicos.",
+                "b": "Interpretar y entender la manera en la cual los Sistemas de Información cumplen con su propósito.",
+                "c": "Definir la Homeostasis en sistemas cerrados.",
+                "d": "Estimar los costos y plazos de desarrollo de software."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "Análisis de Sistemas es la 'DISCIPLINA QUE TIENE COMO OBJETIVO INTERPRETAR Y ENTENDER LA MANERA EN LA CUAL LOS SISTEMAS DE INFORMACIÓN (OBJETO DE ESTUDIO) CUMPLEN CON SU PROPÓSITO'."
+            }
+        },
+        {
+            "pregunta": "La 'Función' de un sistema se define como:",
+            "opciones": {
+                "a": "La forma en que se interconectan los subsistemas.",
+                "b": "La razón de ser (teniendo en cuenta el uso más frecuente).",
+                "c": "El conjunto de recursos humanos y materiales.",
+                "d": "El proceso de transformación de datos en información."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "FUNCIÓN (LA RAZÓN DE SER) TENER EN CUENTA EL USO MÁS FRECUENTE."
+            }
+        },
+        {
+            "pregunta": "Dentro del 'Alcance' de un sistema, ¿qué incluye el concepto de 'Funcionalidades de Apoyo'?",
+            "opciones": {
+                "a": "El uso más frecuente (razón de ser).",
+                "b": "El Rol del Administrador.",
+                "c": "Las Comunicaciones con sistemas externos.",
+                "d": "Las funcionalidades no incluidas."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "El Alcance incluye 'FUNCIONALIDADES DE APOYO (ROL ADMINISTRADOR)'."
+            }
+        },
+        {
+            "pregunta": "Los sistemas clasificados como 'Vivientes' y 'Físicos (Estelares, Geológicos, Moleculares)' caen bajo la categoría de Tipos de Sistemas:",
+            "opciones": {
+                "a": "Hechos por el Hombre.",
+                "b": "Naturales.",
+                "c": "Abstractos.",
+                "d": "Sistemas de Ideas o Doctrinas."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "Aunque no tiene un encabezado explícito, la lista comienza con 'Sist. Físicos' y 'Sist. Vivientes', que por contexto se oponen a 'Hechos por el Hombre', siendo Naturales."
+            }
+        },
+        {
+            "pregunta": "Según la clasificación general, ¿cuál de los siguientes es un tipo de sistema 'Hecho por el Hombre'?",
+            "opciones": {
+                "a": "Sistemas Vivientes.",
+                "b": "Sistemas Geológicos.",
+                "c": "Sistemas Financieros.",
+                "d": "Sistemas Moleculares."
+            },
+            "correctas": ["c"],
+            "explicaciones_correctas": {
+                "c": "Los sistemas 'Hechos por el Hombre' incluyen: Comunicación, Manufactura, Financieros, Sociales, De ideas o doctrinas, y Transporte."
+            }
+        },
+        {
+            "pregunta": "Los sistemas 'Permanentes' y 'Temporales' son una de las Clases de Sistemas en función de:",
+            "opciones": {
+                "a": "Su propósito.",
+                "b": "Su duración.",
+                "c": "Su constitución.",
+                "d": "Su naturaleza."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "Permanentes y Temporales es una de las clases de sistemas listadas en el mapa conceptual, indicando su duración."
+            }
+        },
+        {
+            "pregunta": "La característica de un sistema conocida como 'Globalismo' implica:",
+            "opciones": {
+                "a": "La existencia de un Límite o Frontera.",
+                "b": "La aplicación de la Sinergia ('El todo es más que la suma de las partes').",
+                "c": "Que el sistema es Abierto y Cerrado simultáneamente.",
+                "d": "Que el sistema es siempre Dinámico."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "Las Características del Sistema son Propósito y Globalismo, donde Globalismo es equiparado con 'EL TODO ES MÁS QUE LA SUMA DE LAS PARTES' (Sinergia)."
+            }
+        },
+        {
+            "pregunta": "En el contexto de las 'Premisas' del Estudio de los Sistemas, la 'Homeostasis' se relaciona con la tendencia de los sistemas a:",
+            "opciones": {
+                "a": "El crecimiento continuo.",
+                "b": "Mantener un equilibrio interno dinámico.",
+                "c": "Alcanzar su equilibrio al igualarse con el medio (Entropía).",
+                "d": "Aumentar el conocimiento del usuario."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "El documento menciona Homeostasis y Entropía en el contexto de Premisas. Homeostasis se refiere al equilibrio dinámico interno, diferenciándose de Entropía que es el equilibrio con el medio."
+            }
+        },
+        {
+            "pregunta": "Si un sistema es clasificado como 'Probabilístico', su resultado:",
+            "opciones": {
+                "a": "Es conocido con certeza (opuesto a Determinístico).",
+                "b": "No puede ser anticipado (opuesto a Determinístico).",
+                "c": "Depende de la interacción con el ambiente.",
+                "d": "Es siempre Temporal."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "Probabilísticos y Determinísticos son clases de sistemas. Un sistema Probabilístico es aquel cuyo resultado no puede ser conocido con certeza."
+            }
+        },
+        {
+            "pregunta": "Los 'Gerentes Operativos' se enfocan en tareas de:",
+            "opciones": {
+                "a": "Planificación estratégica a largo plazo.",
+                "b": "Supervisión de actividades diarias y transacciones básicas.",
+                "c": "Administración de proyectos y recursos.",
+                "d": "Investigación y análisis de datos."
+            },
+            "correctas": ["b"],
+            "explicaciones_correctas": {
+                "b": "El 'Nivel Operativo' al que sirven los Gerentes Operativos se relaciona con las tareas de 'Transacciones básicas y control de actividades'."
+            }
+        }
+    ]
+}

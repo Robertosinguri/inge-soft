@@ -1,0 +1,225 @@
+/* Reset básico para móviles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f8f8f2; /* texto Dracula */
+}
+
+body {
+    background-color: #282a36;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Contenedor tipo tarjeta */
+.quiz-container, .quiz-selection {
+    background-color: #1e2127;
+    border: 1px solid #6272a4;
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(98, 114, 164, 0.6);
+    text-align: center;
+}
+
+/* Título de la unidad seleccionada (h1) */
+#selected-quiz-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #bd93f9; /* Morado Dracula para el título principal */
+    text-align: center;
+    border-bottom: 1px solid #6272a4;
+    padding-bottom: 15px;
+}
+
+/* Pregunta centrada (h2) */
+#question {
+    font-size: 1.3rem;
+    font-weight: 600;
+    /* Se elimina margin-top para que esté cerca del h1 */
+    margin-bottom: 20px;
+    color: #8be9fd; /* morado-cian neón para destacar */
+}
+
+/* Opciones (contenedor y labels) */
+#options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Separación entre opciones */
+}
+
+#options label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    border: 1px solid #44475a;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #282a36;
+    transition: background-color 0.3s ease;
+    user-select: none;
+}
+
+#options label:hover {
+    background-color: #44475a;
+}
+
+/* Checkbox personalizados circulares */
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    border: 2px solid #6272a4;
+    border-radius: 50%;
+    background-color: #282a36;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+/* Cuando está seleccionado */
+input[type="checkbox"]:checked {
+    background-color: #bd93f9; /* morado Dracula */
+    border-color: #bd93f9;
+}
+
+/* El "punto" blanco dentro para indicar selección */
+input[type="checkbox"]::after {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+    display: none;
+}
+
+/* Mostrar el punto cuando esté marcado */
+input[type="checkbox"]:checked::after {
+    display: block;
+}
+
+/* Botones (General) */
+button {
+    background-color: #bd93f9;
+    border: none;
+    border-radius: 8px;
+    color: #282a36;
+    padding: 12px 20px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    width: 100%;
+    display: block;
+}
+
+button:disabled {
+    background-color: #44475a;
+    cursor: not-allowed;
+    color: #f8f8f2;
+}
+
+button:hover:not(:disabled) {
+    background-color: #8be9fd; /* nuevo cian/morado neón */
+    color: #282a36;
+}
+
+/* Feedback */
+#feedback {
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    min-height: 1.5em;
+    text-align: left;
+}
+
+/* Correcto e Incorrecto */
+.correct {
+    color: #50fa7b; /* verde Dracula */
+}
+
+.incorrect {
+    color: #ff5555; /* rojo Dracula */
+}
+
+/* Caja de explicación para respuestas incorrectas (Nueva clase) */
+.explanation-box {
+    margin-top: 15px;
+    padding: 10px;
+    border-left: 4px solid #f1fa8c; /* Amarillo/lima para el borde */
+    background-color: #282a36; 
+    font-size: 0.9em;
+    text-align: left;
+    font-weight: normal;
+}
+.explanation-box strong {
+    color: #f1fa8c; /* Texto destacado de la explicación en amarillo */
+}
+
+/* Estilos de Resultados Finales */
+.results-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #bd93f9; /* Morado para el título principal */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.final-score {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.final-score.pass {
+    color: #50fa7b; /* Verde para aprobado */
+}
+
+.final-score.fail {
+    color: #ff5555; /* Rojo para reprobado */
+}
+
+/* Selección de quiz */
+.quiz-selection {
+    display: flex; 
+    flex-direction: column;
+    gap: 15px;
+}
+.quiz-selection h1 {
+    color: #8be9fd;
+    margin-bottom: 10px;
+}
+
+.quiz-btn {
+    background-color: #44475a;
+    border-radius: 10px;
+    padding: 15px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+    margin-top: 0; /* Anulamos el margin-top general del botón para usar el gap del flex */
+}
+
+.quiz-btn:hover {
+    background-color: #8be9fd;
+    color: #282a36;
+}
