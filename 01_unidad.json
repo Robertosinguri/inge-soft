@@ -1,6 +1,6 @@
 {
     "titulo": "unidad 1",
-    "instrucciones": "Seleccione la opción correcta. Todas las respuestas están fundamentadas en el PDF suministrado, asegurando cobertura máxima de los temas.",
+    "instrucciones": "Seleccione la opción correcta.",
     "preguntas": [
         {
             "pregunta": "¿Cuáles son los tres componentes fundamentales que conforman el Software?",
@@ -16,7 +16,7 @@
             }
         },
         {
-            "pregunta": "Según la definición del Software, ¿cuál es el propósito de las instrucciones cuando se ejecutan?",
+            "pregunta": "En el Software, ¿cuál es el propósito de las instrucciones cuando se ejecutan?",
             "opciones": {
                 "a": "Manipular adecuadamente la información.",
                 "b": "Registrar la información que maneja el sistema.",
@@ -25,7 +25,7 @@
             },
             "correctas": ["c"],
             "explicaciones_correctas": {
-                "c": "El software incluye 'Instrucciones que, cuando se ejecutan, proporcionan la funcionalidad deseada'."
+                "c": "Componentes de software; Instrucciones: Código ejecutable que brinda la funcionalidad - Estructuras de datos: Formas de organizar la información para su manejo - Base de datos: Repositorio donde se almacena la información del sistema - Documentos: Guías para desarrollo, instalación, uso y mantenimiento - Servicios asociados: Entrenamiento, soporte e instalación."
             }
         },
         {
@@ -68,7 +68,7 @@
             }
         },
         {
-            "pregunta": "El Software se construye 'a medida', y es una característica que se diferencia de los productos físicos, ¿por qué es importante esta característica?",
+            "pregunta": "El Software se construye 'a medida', es una caracteristica de Software, ¿a que se debe esa afirmación?",
             "opciones": {
                 "a": "Porque solo se puede usar con hardware específico.",
                 "b": "Porque no hay 'piezas de repuesto'.",
@@ -77,7 +77,7 @@
             },
             "correctas": ["b"],
             "explicaciones_correctas": {
-                "b": "El documento menciona que 'No hay “piezas de repuesto”' para el software."
+                "b": "caracteristicas del software: Es un Elemento Lógico, no Físico - Es Desarrollado, 'No fabricado' - No se 'Estropea'… Se deteriora! (deterioro por cambios) - No hay 'piezas de repuesto' - Se construye a medida"
             }
         },
         {
@@ -237,7 +237,7 @@
             }
         },
         {
-            "pregunta": "¿Cuál de los siguientes atributos es mencionado por Bell (2000) en el documento, además de Fiable, Robusto, y Eficiente?",
+            "pregunta": "¿Cuál de los siguientes es un atributo de calidad de software Bell (2000), además de Portable, Adaptable, Inteligible y No erroneo?",
             "opciones": {
                 "a": "Seguro.",
                 "b": "Mantenible.",
@@ -341,7 +341,7 @@
             }
         },
         {
-            "pregunta": "¿Cuál es la función principal de los Procedimientos en las Capas de la IS?",
+            "pregunta": "¿Cuál es la función principal de los Proceos o Procedimientos en las Capas de la Ingenieria de Software?",
             "opciones": {
                 "a": "Definen cómo construir el software técnicamente.",
                 "b": "Definen la secuencia en la que se aplican los métodos y cómo usar las herramientas.",
@@ -350,7 +350,7 @@
             },
             "correctas": ["b"],
             "explicaciones_correctas": {
-                "b": "Los Procedimientos 'Definen la secuencia en la que se aplican los métodos, cómo usar las herramientas, las entregas que se requieren...'."
+                "b": "Los Los Proceos o Procedimientos 'Definen la secuencia en la que se aplican los métodos, cómo usar las herramientas, las entregas que se requieren...'."
             }
         },
         {
@@ -367,7 +367,7 @@
             }
         },
         {
-            "pregunta": "Durante la etapa de 'Diseño', ¿qué utiliza el procedimiento para crear un modelo o las características precisas del producto?",
+            "pregunta": "Durante la etapa de 'Diseño', ¿qué se utiliza para crear un modelo o las características precisas del producto?",
             "opciones": {
                 "a": "La información acumulada en la etapa de análisis.",
                 "b": "El código fuente de la etapa de desarrollo.",
