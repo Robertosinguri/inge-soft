@@ -3,7 +3,7 @@
     "instrucciones": "Seleccione la opción correcta.",
     "preguntas": [
         {
-            "pregunta": "¿Cuáles son los tres componentes fundamentales que conforman el Software?",
+            "pregunta": "01 - ¿Cuáles son los tres componentes fundamentales que conforman el Software?",
             "opciones": {
                 "a": "Programas, Código y Hardware.",
                 "b": "Datos, Base de datos y Manual de usuario.",
@@ -16,7 +16,7 @@
             }
         },
         {
-            "pregunta": "En el Software, ¿cuál es el propósito de las instrucciones cuando se ejecutan?",
+            "pregunta": "02 - En el Software, ¿cuál es el propósito de las instrucciones cuando se ejecutan?",
             "opciones": {
                 "a": "Manipular adecuadamente la información.",
                 "b": "Registrar la información que maneja el sistema.",
@@ -29,7 +29,7 @@
             }
         },
         {
-            "pregunta": "¿Qué componente del Software facilita a las instrucciones manipular adecuadamente la información?",
+            "pregunta": "03 - ¿Qué componente del Software facilita a las instrucciones manipular adecuadamente la información?",
             "opciones": {
                 "a": "Líneas de Código.",
                 "b": "Estructuras de datos.",
@@ -42,7 +42,7 @@
             }
         },
         {
-            "pregunta": "¿Cuál es la característica fundamental del Software en relación con su naturaleza física?",
+            "pregunta": "04 - ¿Cuál es la característica fundamental del Software en relación con su naturaleza física?",
             "opciones": {
                 "a": "Es un Elemento Físico, no Lógico.",
                 "b": "Es un Elemento Lógico, no Físico.",
@@ -55,7 +55,7 @@
             }
         },
         {
-            "pregunta": "¿Cuál es la causa del deterioro del Software, a diferencia de los productos físicos?",
+            "pregunta": "05 - ¿Cuál es la causa del deterioro del Software, a diferencia de los productos físicos?",
             "opciones": {
                 "a": "El uso constante del hardware.",
                 "b": "La oxidación de los circuitos lógicos.",
@@ -68,20 +68,21 @@
             }
         },
         {
-            "pregunta": "El Software se construye 'a medida', es una caracteristica de Software, ¿a que se debe esa afirmación?",
+            "pregunta": "06 - 'Muchas aplicaciones son diseñadas específicamente para las necesidades de una organización o usuario.' ¿a que caracteristica se ajusta esta afirmació?",
             "opciones": {
-                "a": "Porque solo se puede usar con hardware específico.",
-                "b": "Porque no hay 'piezas de repuesto'.",
-                "c": "Porque está hecho para cumplir funcionalidades genéricas.",
-                "d": "Porque se fabrica en grandes lotes."
+                "a": "Es un elemento lógico, no físico.",
+                "b": "Es desarrollado, no fabricado.",
+                "c": "No se estropea… se deteriora (por cambios).",
+                "d": "No hay piezas de repuesto.",
+                "e": "Se construye a medida."
             },
             "correctas": ["b"],
             "explicaciones_correctas": {
-                "b": "caracteristicas del software: Es un Elemento Lógico, no Físico - Es Desarrollado, 'No fabricado' - No se 'Estropea'… Se deteriora! (deterioro por cambios) - No hay 'piezas de repuesto' - Se construye a medida"
+                "e": "Aunque existan productos de software de propósito general (ej. navegadores, procesadores de texto), en ingeniería de software se suele trabajar en soluciones personalizadas para un contexto concreto."
             }
         },
         {
-            "pregunta": "En el glosario inicial, una de las descripciones del término 'Sistema' es:",
+            "pregunta": "07 - Una de las descripciones del término 'Sistema' es:",
             "opciones": {
                 "a": "Todo un proceso que transcurre en un producto.",
                 "b": "Conjunto de elementos que interactúan.",
@@ -94,7 +95,7 @@
             }
         },
         {
-            "pregunta": "¿Cuál de las siguientes opciones describe el concepto de 'Técnicas'?",
+            "pregunta": "08 - ¿Cuál de las siguientes opciones describe el concepto de 'Técnicas'?",
             "opciones": {
                 "a": "Objetos para facilitar una tarea.",
                 "b": "Forma ordenada de resolver un problema.",
@@ -107,7 +108,7 @@
             }
         },
         {
-            "pregunta": "¿Qué término se define en el documento como 'Solicitudes que hace el cliente' y 'Metas a cumplir'?",
+            "pregunta": "09 - ¿Qué término se define en el documento como 'Solicitudes que hace el cliente' y 'Metas a cumplir'?",
             "opciones": {
                 "a": "Técnicas.",
                 "b": "Ciclo de Vida.",
@@ -120,7 +121,7 @@
             }
         },
         {
-            "pregunta": "El concepto de 'Ciclo de Vida' se describe como:",
+            "pregunta": "10 - El concepto de 'Ciclo de Vida' se describe como:",
             "opciones": {
                 "a": "Conjunto de instrucciones puestas en conjunto.",
                 "b": "Todo un proceso que transcurre en un producto desde el inicio hasta su finalización.",
@@ -133,12 +134,12 @@
             }
         },
         {
-            "pregunta": "¿Qué atributo de la calidad del software se centra en la 'Utilización óptima de los recursos de la máquina'?",
+            "pregunta": "11 - ¿Qué atributo de la calidad del software se centra en la 'Utilización óptima de los recursos de la máquina'?",
             "opciones": {
-                "a": "Portable.",
+                "a": "Fiable.",
                 "b": "Eficiente.",
-                "c": "Correcto.",
-                "d": "Mantenible."
+                "c": "Robusto.",
+                "d": "Correcto."
             },
             "correctas": ["b"],
             "explicaciones_correctas": {
@@ -146,12 +147,12 @@
             }
         },
         {
-            "pregunta": "Un software que 'Se ajusta a las especificaciones dadas por el usuario' posee el atributo de calidad:",
+            "pregunta": "12 - Un software que 'Se ajusta a las especificaciones dadas por el usuario' posee el atributo de calidad:",
             "opciones": {
                 "a": "Fiable.",
-                "b": "Robusto.",
+                "b": "Eficiente.",
                 "c": "Correcto.",
-                "d": "Portable."
+                "d": "Robusto."
             },
             "correctas": ["c"],
             "explicaciones_correctas": {
@@ -159,12 +160,13 @@
             }
         },
         {
-            "pregunta": "¿Qué atributo de calidad se define como 'Capaz de integrarse en entornos distintos con el mismo esfuerzo'?",
+            "pregunta": "13 - ¿Qué atributo de calidad Bell (2000) se define como 'Capaz de integrarse en entornos distintos con el mismo esfuerzo'?",
             "opciones": {
-                "a": "Adaptable.",
-                "b": "Reutilizable.",
-                "c": "Portable.",
-                "d": "Inteligible."
+                "a": "Portable.",
+                "b": "Adaptable (Extensibilidad).",
+                "c": "Inteligible.",
+                "d": "No erroneo.",
+                "e": "Reutilizable (reusabilidad)."
             },
             "correctas": ["c"],
             "explicaciones_correctas": {
@@ -172,12 +174,13 @@
             }
         },
         {
-            "pregunta": "Según Bell (2000), el atributo de calidad del software 'Inteligible' implica:",
+            "pregunta": "14 - Según Bell (2000), el atributo de calidad del software 'Inteligible' implica:",
             "opciones": {
-                "a": "Que no exista diferencia entre los valores reales y los calculados.",
+                "a": "Capaz de integrarse en entornos distintos con el mismo esfuerzo.",
                 "b": "Modificación de alguna función sin que afecte a las actividades.",
                 "c": "Diseño claro, bien estructurado y documentado.",
-                "d": "Capacidad de ofrecer los mismos resultados bajo las mismas condiciones."
+                "d": "Que no exista diferencia entre los valores reales y los calculados.",
+                "e": "Que partes del software puedan aprovecharse en otros proyectos o módulos."
             },
             "correctas": ["c"],
             "explicaciones_correctas": {
@@ -185,7 +188,7 @@
             }
         },
         {
-            "pregunta": "La diferencia clave entre el atributo 'Correcto' y 'No Erróneo' es:",
+            "pregunta": "15 - La diferencia clave entre el atributo 'Correcto' y 'No Erróneo'(bell 2000) es:",
             "opciones": {
                 "a": "Correcto se enfoca en el coste, No Erróneo en la fiabilidad.",
                 "b": "Correcto se enfoca en las especificaciones del usuario, No Erróneo en la diferencia entre valores reales y calculados.",
@@ -194,24 +197,25 @@
             },
             "correctas": ["b"],
             "explicaciones_correctas": {
-                "b": "Correcto se enfoca en las especificaciones del usuario, No Erróneo en la diferencia entre valores reales y calculados. La fundamentación es: Correcto es 'Se ajusta a las especificaciones dadas por el usuario' mientras que No Erróneo es 'Que no exista diferencia entre los valores reales y los calculados'."
+                "b": " Es la afirmacion correcta."
             }
         },
         {
-            "pregunta": "La 'Modificación de alguna función sin que afecte a las actividades' se relaciona directamente con el atributo:",
+            "pregunta": "16 - Atributos de calidad bell 2000; 'La modificación de alguna función sin que afecte a las actividades' se relaciona con ...",
             "opciones": {
-                "a": "Fiable.",
-                "b": "Robusto.",
-                "c": "Adaptable (extensibilidad).",
-                "d": "Eficiente."
+                "a": "Portable.",
+                "b": "Adaptable (Extensibilidad).",
+                "c": "Inteligible.",
+                "d": "No erroneo.",
+                "e": "Reutilizable (reusabilidad)."
             },
             "correctas": ["c"],
             "explicaciones_correctas": {
-                "c": "Este es el atributo 'Adaptable (extensibilidad)'."
+                "b": "Este es el atributo 'Adaptable (Extensibilidad)'."
             }
         },
         {
-            "pregunta": "El atributo 'Robusto' se enfoca en:",
+            "pregunta": "17 - El atributo de calidad 'Robusto' se enfoca en:",
             "opciones": {
                 "a": "La utilización óptima de la memoria.",
                 "b": "La capacidad de ser utilizado en distintos sistemas operativos.",
@@ -224,11 +228,11 @@
             }
         },
         {
-            "pregunta": "¿Qué atributo de calidad se define como la capacidad de ofrecer los mismos resultados bajo las mismas condiciones?",
+            "pregunta": "18 - ¿Qué atributo de calidad se define como la capacidad de ofrecer los mismos resultados bajo las mismas condiciones?",
             "opciones": {
-                "a": "Portable.",
+                "a": "Correcto.",
                 "b": "Fiable.",
-                "c": "Adaptable.",
+                "c": "Robusto.",
                 "d": "Eficiente."
             },
             "correctas": ["b"],
@@ -237,7 +241,7 @@
             }
         },
         {
-            "pregunta": "¿Cuál de los siguientes es un atributo de calidad de software Bell (2000), además de Portable, Adaptable, Inteligible y No erroneo?",
+            "pregunta": "19 - Atributo de calidad Bell (2000), además de Portable, Adaptable, Inteligible y No erroneo?",
             "opciones": {
                 "a": "Seguro.",
                 "b": "Mantenible.",
@@ -246,11 +250,11 @@
             },
             "correctas": ["c"],
             "explicaciones_correctas": {
-                "c": "El listado de Bell (2000) incluye 'Reutilizable (reusabilidad)'."
+                "c": "El listado de Bell (2000) incluye 'Reutilizable (reusabilidad), y se refiere a la reutilizacion de algunos módulos del software.'."
             }
         },
         {
-            "pregunta": "La Ingeniería de Software es una disciplina que concierne a:",
+            "pregunta": "20 - La Ingeniería de Software es una disciplina que concierne a:",
             "opciones": {
                 "a": "Solo la fase de diseño y desarrollo del código.",
                 "b": "Únicamente al establecimiento de principios robustos de la ingeniería.",
@@ -259,11 +263,11 @@
             },
             "correctas": ["c"],
             "explicaciones_correctas": {
-                "c": "La IS 'Es una disciplina que concierne a todos los aspectos de la Producción de Software'."
+                "c": "La Ingenieria de Software 'Es una disciplina que concierne a todos los aspectos de la Producción de Software'."
             }
         },
         {
-            "pregunta": "Según el documento, los ingenieros de Software adoptan un enfoque **sistemático** para llevar a cabo su trabajo, ¿qué más utilizan?",
+            "pregunta": "21 - Según el documento, los ingenieros de Software adoptan un enfoque <sistemático> para llevar a cabo su trabajo, ¿qué más utilizan?",
             "opciones": {
                 "a": "Únicamente principios científicos para la matemática.",
                 "b": "Solo la programación de bajo nivel.",
@@ -272,11 +276,11 @@
             },
             "correctas": ["c"],
             "explicaciones_correctas": {
-                "c": "Los ingenieros 'utilizan las herramientas y técnicas necesarias para resolver el problema planteado'."
+                "c": " <herramientas> y <técnicas> son necesarias para resolver el problema planteado'."
             }
         },
         {
-            "pregunta": "El objetivo principal de la Ingeniería de Software en cuanto al producto final es:",
+            "pregunta": "22 - El objetivo principal de la Ingeniería de Software en cuanto al producto final es:",
             "opciones": {
                 "a": "Aumentar la productividad de los ingenieros.",
                 "b": "Conseguir un producto Software fiable, de alta calidad y bajo coste.",
@@ -289,7 +293,7 @@
             }
         },
         {
-            "pregunta": "¿Cuál es un objetivo de la Ingeniería de Software centrado en el **proceso** de desarrollo?",
+            "pregunta": "23 - ¿Cuál es un objetivo de la Ingeniería de Software centrado en el **proceso** de desarrollo?",
             "opciones": {
                 "a": "Mejorar la calidad de los productos software.",
                 "b": "Aumentar la productividad de los ingenieros.",
@@ -302,7 +306,7 @@
             }
         },
         {
-            "pregunta": "La Ingeniería de Software busca definir una disciplina que garantice la producción sistemática y el mantenimiento de los productos, ¿bajo qué restricciones?",
+            "pregunta": "24 - La Ingeniería de Software busca definir una disciplina que garantice la producción sistemática y el mantenimiento de los productos, ¿bajo qué restricciones?",
             "opciones": {
                 "a": "Únicamente dentro del coste estimado.",
                 "b": "En el plazo fijado y dentro del coste estimado.",
@@ -315,7 +319,7 @@
             }
         },
         {
-            "pregunta": "Según la definición de Herramientas, ¿qué tipo de soporte proporcionan a los métodos?",
+            "pregunta": "25 - Según la definición de Herramientas, ¿qué tipo de soporte proporcionan a los métodos?",
             "opciones": {
                 "a": "Solo soporte manual.",
                 "b": "Soporte sistemático e interpersonal.",
@@ -328,7 +332,7 @@
             }
         },
         {
-            "pregunta": "¿Qué capa de la Ingeniería de Software incluye la 'Planificación y estimación de proyectos', el 'Análisis de requisitos' y el 'Mantenimiento'?",
+            "pregunta": "26 - ¿Qué capa de la Ingeniería de Software incluye la 'Planificación y estimación de proyectos', el 'Análisis de requisitos' y el 'Mantenimiento'?",
             "opciones": {
                 "a": "Procedimientos.",
                 "b": "Herramientas.",
@@ -341,7 +345,7 @@
             }
         },
         {
-            "pregunta": "¿Cuál es la función principal de los Proceos o Procedimientos en las Capas de la Ingenieria de Software?",
+            "pregunta": "27 - ¿Cuál es la función principal de los Proceos o Procedimientos en las Capas de la Ingenieria de Software?",
             "opciones": {
                 "a": "Definen cómo construir el software técnicamente.",
                 "b": "Definen la secuencia en la que se aplican los métodos y cómo usar las herramientas.",
@@ -354,7 +358,7 @@
             }
         },
         {
-            "pregunta": "La etapa de 'Análisis' en el Ciclo de Vida del Software tiene como objetivo principal:",
+            "pregunta": "28 - La etapa de 'Análisis' en el Ciclo de Vida del Software tiene como objetivo principal:",
             "opciones": {
                 "a": "Crear el modelo o características precisas para el producto.",
                 "b": "Investigar el problema al que se desea encontrar la solución.",
@@ -367,7 +371,7 @@
             }
         },
         {
-            "pregunta": "Durante la etapa de 'Diseño', ¿qué se utiliza para crear un modelo o las características precisas del producto?",
+            "pregunta": "29 - Durante la etapa de 'Diseño', ¿qué se utiliza para crear un modelo o las características precisas del producto?",
             "opciones": {
                 "a": "La información acumulada en la etapa de análisis.",
                 "b": "El código fuente de la etapa de desarrollo.",
@@ -380,7 +384,7 @@
             }
         },
         {
-            "pregunta": "La etapa de 'Desarrollo' consiste en:",
+            "pregunta": "30 - La etapa de 'Desarrollo' consiste en:",
             "opciones": {
                 "a": "Crear las especificaciones de calidad.",
                 "b": "Garantizar que los elementos individuales presentan las características requeridas.",
@@ -393,7 +397,7 @@
             }
         },
         {
-            "pregunta": "¿Cuál es el propósito fundamental de la etapa de 'Pruebas'?",
+            "pregunta": "31 - ¿Cuál es el propósito fundamental de la etapa de 'Pruebas'?",
             "opciones": {
                 "a": "Liberar una versión mejorada del producto.",
                 "b": "Garantizar que los elementos individuales presentan las características requeridas en la especificación.",
@@ -406,7 +410,7 @@
             }
         },
         {
-            "pregunta": "El 'Mantenimiento' como etapa del Ciclo de Vida del Software implica:",
+            "pregunta": "32 - El 'Mantenimiento' como etapa del Ciclo de Vida del Software implica:",
             "opciones": {
                 "a": "Aplicar soluciones a cualquier problema del producto y re liberar el producto mejorado.",
                 "b": "La primera puesta en marcha y la formación a usuarios.",
@@ -419,7 +423,7 @@
             }
         },
         {
-            "pregunta": "Según el documento, ¿cuál de las siguientes es una función del Ingeniero de Software?",
+            "pregunta": "33 - ¿cuál de las siguientes es una función del Ingeniero de Software?",
             "opciones": {
                 "a": "Únicamente la programación de rutinas de bajo nivel.",
                 "b": "Análisis de un sistema existente y el diseño del nuevo software.",
@@ -432,7 +436,7 @@
             }
         },
         {
-            "pregunta": "En el Perfil Profesional del Ingeniero de Software, las 'Excelentes habilidades interpersonales' se identifican específicamente como:",
+            "pregunta": "34 - En el Perfil Profesional del Ingeniero de Software, las 'Excelentes habilidades interpersonales' se identifican específicamente como:",
             "opciones": {
                 "a": "Conocimientos técnicos.",
                 "b": "Capacidad de resolución de problemas.",
@@ -445,7 +449,7 @@
             }
         },
         {
-            "pregunta": "¿Qué tipo de Actividades del Ingeniero de Software se ocupan de 'evaluar y asegurar la calidad del software'?",
+            "pregunta": "35 - ¿Qué tipo de Actividades del Ingeniero de Software se ocupan de 'evaluar y asegurar la calidad del software'?",
             "opciones": {
                 "a": "Actividades de Gestión.",
                 "b": "Actividades de Operación.",
@@ -458,20 +462,20 @@
             }
         },
         {
-            "pregunta": "Las 'Actividades de Gestión' del Ingeniero de Software incluyen:",
+            "pregunta": "36 - Las 'Actividades de Gestión' del Ingeniero de Software incluyen:",
             "opciones": {
                 "a": "Entrega, Puesta en marcha y Formación a los usuarios.",
                 "b": "Métricas, Garantía de Calidad y Gestión de configuraciones.",
-                "c": "Planificación y estimación, Seguimiento de los proyectos y Administración de proyectos.",
+                "c": "Planificación y estimación, Seguimiento de los proyectos, Administración de proyectos y Direccion de proyectos.",
                 "d": "Análisis de sistemas, Diseño y Codificación."
             },
             "correctas": ["c"],
             "explicaciones_correctas": {
-                "c": "Las Actividades de Gestión incluyen 'Planificación y estimación', 'Seguimiento de los proyectos' y 'Administración de proyectos'."
+                "c": "La opcion 'C' es la afirmacion correcta"
             }
         },
         {
-            "pregunta": "¿Cuál de las siguientes es una 'Actividad de Operación' del Ingeniero de Software?",
+            "pregunta": "37 - ¿Cuál de las siguientes es una 'Actividad de Operación' del Ingeniero de Software?",
             "opciones": {
                 "a": "Planificación y estimación.",
                 "b": "Métricas.",
@@ -484,7 +488,7 @@
             }
         },
         {
-            "pregunta": "¿Qué elemento incluye la 'Gestión de configuraciones', que es parte de las Actividades de Control?",
+            "pregunta": "38 - Actividades de contol del Ingeniero de software; ¿Qué elemento incluye la 'Gestión de configuraciones'",
             "opciones": {
                 "a": "La precisión en las estimaciones de costo.",
                 "b": "Mantener los sistemas, los servidores y el soft en un estado deseado.",
@@ -493,7 +497,7 @@
             },
             "correctas": ["b"],
             "explicaciones_correctas": {
-                "b": "La 'Gestión de configuraciones: busca mantener los sistemas, los servidores y el soft en un estado deseado'."
+                "b": "<Métricas>: Medir costos, funcionalidades y decisiones costo_beneficio // <Garantía de Calidad>: Procesos que aseguran cumplimiento de estándares. //  <Gestión de Configuraciones>: Mantener software y entorno en estado controlado.."
             }
         }
     ]
