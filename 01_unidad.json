@@ -298,7 +298,7 @@
                 "a": "Mejorar la calidad de los productos software.",
                 "b": "Aumentar la productividad de los ingenieros.",
                 "c": "Conducir un proceso de desarrollo y mantenimiento software de manera eficiente y con éxito.",
-                "d": "Suministrar las bases para construir software de baja calidad."
+                "d": "Suministrar las bases para construir software de calidad."
             },
             "correctas": ["c"],
             "explicaciones_correctas": {

@@ -6,10 +6,10 @@ document.addEventListener("DOMContentLoaded", () => {
     // 1. Elementos del DOM
     const quizSelectionEl = document.querySelector(".quiz-selection");
     const quizContainerEl = document.querySelector(".quiz-container");
-    
+
     // Referencia al h1 para el título del cuestionario seleccionado
-    const selectedQuizTitleEl = document.getElementById("selected-quiz-title"); 
-    
+    const selectedQuizTitleEl = document.getElementById("selected-quiz-title");
+
     const questionEl = document.getElementById("question");
     const optionsEl = document.getElementById("options");
     const feedbackEl = document.getElementById("feedback");
@@ -69,22 +69,22 @@ document.addEventListener("DOMContentLoaded", () => {
 
         optionsEl.innerHTML = "";
         feedbackEl.innerHTML = "";
-        
-        const optionsList = document.createElement("div");
-        optionsEl.appendChild(optionsList); 
 
-        const inputs = []; 
+        const optionsList = document.createElement("div");
+        optionsEl.appendChild(optionsList);
+
+        const inputs = [];
 
         Object.entries(questionData.opciones)
             .sort((a, b) => a[0].localeCompare(b[0]))
             .forEach(([key, text]) => {
                 const label = document.createElement("label");
-                
+
                 const input = document.createElement("input");
-                input.type = "radio"; 
+                input.type = "radio";
                 input.value = key;
                 input.name = "option";
-                
+
                 // Lógica: al seleccionar un radio, se habilita el botón Enviar.
                 input.addEventListener("change", () => {
                     submitBtn.disabled = false;
@@ -119,8 +119,8 @@ document.addEventListener("DOMContentLoaded", () => {
         const btn = document.createElement("button");
         btn.type = "button"; // ✅ FIX CLAVE 2: Evita el comportamiento de 'submit' en botones de navegación.
         btn.innerText = text;
-        btn.classList.add(className); 
-        
+        btn.classList.add(className);
+
         btn.addEventListener("click", (event) => {
             event.preventDefault(); // Detiene cualquier intento de recarga de la página.
             action();
@@ -140,42 +140,41 @@ document.addEventListener("DOMContentLoaded", () => {
         feedbackEl.innerHTML = "";
         feedbackEl.classList.remove("correct", "incorrect");
 
+        // Generar explicaciones (si existen en el JSON)
+        let explanationHtml = "";
+        if (questionData.explicaciones_correctas) {
+            const explanations = correctAnswers
+                .map(key => {
+                    const optionText = questionData.opciones[key];
+                    const explanation = questionData.explicaciones_correctas[key];
+                    if (explanation) {
+                        return `<strong>${key.toUpperCase()}. ${optionText}:</strong> ${explanation}`;
+                    }
+                    return null;
+                })
+                .filter(Boolean);
+
+            if (explanations.length > 0) {
+                explanationHtml = `<div class="explanation-box">
+                        <strong>Explicación(es):</strong><br>
+                        ${explanations.join("<br>")}
+                    </div>`;
+            }
+        }
+
         if (isCorrect) {
             score++;
-            feedbackEl.innerHTML = "✅ Correcto";
+            feedbackEl.innerHTML = `✅ Correcto<br>${explanationHtml}`;
             feedbackEl.classList.add("correct");
-            
             feedbackEl.appendChild(createNextQuestionButton());
 
         } else {
-            let explanationHtml = "";
-
-            if (questionData.explicaciones_correctas) {
-                const explanations = correctAnswers
-                    .map(key => {
-                        const optionText = questionData.opciones[key];
-                        const explanation = questionData.explicaciones_correctas[key];
-                        if (explanation) {
-                            return `<strong>${key.toUpperCase()}. ${optionText}:</strong> ${explanation}`;
-                        }
-                        return null;
-                    })
-                    .filter(Boolean);
-
-                if (explanations.length > 0) {
-                    explanationHtml = `<div class="explanation-box">
-                                <strong>Explicación(es):</strong><br>
-                                ${explanations.join("<br>")}
-                            </div>`;
-                }
-            }
-            
             feedbackEl.innerHTML = `❌ Incorrecto. Correcta(s): ${correctAnswers.join(", ")}<br>${explanationHtml}`;
             feedbackEl.classList.add("incorrect");
-            
             feedbackEl.appendChild(createNextQuestionButton());
         }
     }
+
 
     function nextQuestion() {
         currentQuestion++;
@@ -185,19 +184,19 @@ document.addEventListener("DOMContentLoaded", () => {
             // Lógica de Resultados Finales
             optionsEl.innerHTML = "";
             submitBtn.style.display = "none";
-            
+
             // Limpiamos el título principal del quiz y mostramos el de resultados
             selectedQuizTitleEl.innerText = "";
             selectedQuizTitleEl.innerHTML = '<div class="results-title">Resultados Finales</div>';
-            
+
             const totalQuestions = questions.length;
             const correctScore = score;
             const percentage = totalQuestions > 0 ? ((correctScore / totalQuestions) * 100).toFixed(0) : 0;
-            const isPassing = percentage >= 60; 
+            const isPassing = percentage >= 60;
 
             // Dejamos questionEl vacío o lo usamos para un mensaje
-            questionEl.innerText = ''; 
-            
+            questionEl.innerText = '';
+
             feedbackEl.innerHTML = `<p class="final-score ${isPassing ? 'pass' : 'fail'}">
                     ${correctScore} de ${totalQuestions} correctas (${percentage}%)
                 </p>`;
@@ -205,7 +204,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const volverBtn = createNextQuestionButton(
                 "Seleccionar otro cuestionario",
                 resetQuizState,
-                "volver-btn" 
+                "volver-btn"
             );
             feedbackEl.appendChild(volverBtn);
         }
@@ -214,12 +213,12 @@ document.addEventListener("DOMContentLoaded", () => {
     // 3. Funciones de Control y Eventos
     function resetQuizState() {
         quizContainerEl.style.display = "none";
-        quizSelectionEl.style.display = "flex"; 
-        
+        quizSelectionEl.style.display = "flex";
+
         currentQuestion = 0;
         score = 0;
         questions = [];
-        
+
         // Limpiamos el título al volver a la pantalla de selección
         selectedQuizTitleEl.innerText = "";
 
@@ -232,8 +231,8 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll(".quiz-btn").forEach((button) => {
         button.addEventListener("click", async (event) => {
             event.preventDefault(); // Detiene cualquier intento de recarga de la página.
-            
-            const selectedQuizName = button.innerText; 
+
+            const selectedQuizName = button.innerText;
             let fileName = "";
             let expectedTitle = "";
 
@@ -241,7 +240,7 @@ document.addEventListener("DOMContentLoaded", () => {
             selectedQuizTitleEl.innerText = selectedQuizName;
             quizSelectionEl.style.display = "none";
             quizContainerEl.style.display = "block";
-            questionEl.innerText = "Cargando preguntas, por favor espere..."; 
+            questionEl.innerText = "Cargando preguntas, por favor espere...";
             optionsEl.innerHTML = "";
             feedbackEl.innerHTML = "";
             submitBtn.style.display = "none";
