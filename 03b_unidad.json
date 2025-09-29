@@ -1,22 +1,23 @@
 {
     "titulo": "unidad 3-B",
-    "instrucciones": "Seleccione la opción correcta. Todas las respuestas están fundamentadas en el PDF suministrado.",
+    
     "preguntas": [
         {
-            "pregunta": "Un 'Proyecto' se define como una cantidad finita de acciones que se llevan a cabo con el fin de crear un producto, servicio o:",
+            "pregunta": "01 - Un 'Proyecto' se define como una cantidad finita de acciones que se llevan a cabo con el fin de crear un producto, servicio o:",
             "opciones": {
-                "a": "Plan estratégico.",
-                "b": "Resultado único.",
+                "a": "Resultado único.",
+                "b": "Plan estratégico.",
                 "c": "Trabajo operativo.",
                 "d": "Sistema de gestión de calidad."
             },
-            "correctas": ["b"],
+            "correctas": ["a"],
             "explicaciones_correctas": {
-                "b": "Proyecto: 'Es una cantidad finita de acciones que se llevan a cabo con el fin de crear un producto, servicio o resultado único'."
+                "a": "Proyecto: 'Es una cantidad finita de acciones que se llevan a cabo con el fin de crear un producto, servicio o resultado único'."
             }
         },
+
         {
-            "pregunta": "Una de las características comunes de todos los proyectos es que son 'Finitos', lo que significa que tienen:",
+            "pregunta": "02 - Una de las características comunes de todos los proyectos es que son 'Finitos', lo que significa que tienen:",
             "opciones": {
                 "a": "Un alcance ilimitado.",
                 "b": "Comienzo y fin.",
@@ -28,112 +29,93 @@
                 "b": "Los proyectos 'Son finitos, tienen comienzo y fin'."
             }
         },
+
         {
-            "pregunta": "A diferencia de los Proyectos, los Trabajos Operativos se caracterizan por:",
+            "pregunta": "03 - A diferencia de los Proyectos, los Trabajos Operativos se caracterizan por:",
             "opciones": {
                 "a": "Alcanzar un objetivo y concluir.",
-                "b": "Ser continuos en el tiempo.",
-                "c": "Usarse para lograr un plan estratégico.",
+                "b": "Usarse para lograr un plan estratégico.",
+                "c": "Ser continuos en el tiempo.",
                 "d": "Tener una duración limitada."
             },
-            "correctas": ["b"],
+            "correctas": ["c"],
             "explicaciones_correctas": {
-                "b": "Los Trabajos Operativos 'SON CONTINUOS EN EL TIEMPO' y 'DAR RESPALDO AL NEGOCIO'."
+                "c": "Los Trabajos Operativos 'SON CONTINUOS EN EL TIEMPO' y 'DAR RESPALDO AL NEGOCIO'."
             }
         },
+
         {
-            "pregunta": "Los proyectos se usan a menudo para lograr un plan estratégico, mientras que los trabajos operativos:",
+            "pregunta": "04 - Los proyectos se usan a menudo para lograr un plan estratégico, mientras que los trabajos operativos:",
             "opciones": {
                 "a": "Organizan actividades que no pueden ser tratadas dentro de los límites operativos normales.",
                 "b": "Tienen una duración limitada.",
-                "c": "Organizan actividades que pueden ser realizadas en la organización habitualmente.",
-                "d": "Equilibran las demandas concurrentes de calidad y costo."
+                "c": "Equilibran las demandas concurrentes de calidad y costo.",
+                "d": "Organizan actividades que pueden ser realizadas en la organización habitualmente."
             },
-            "correctas": ["c"],
+            "correctas": ["d"],
             "explicaciones_correctas": {
-                "c": "Los Trabajos Operativos 'ORGANIZAN ACTIVIDADES QUE PUEDEN SER REALIZADAS EN LA ORGANIZACIÓN HABITUALMENTE'."
+                "d": "Los Trabajos Operativos 'ORGANIZAN ACTIVIDADES QUE PUEDEN SER REALIZADAS EN LA ORGANIZACIÓN HABITUALMENTE'."
             }
         },
+
         {
-            "pregunta": "La 'Gestión de Proyectos' se define como la aplicación de conocimientos, herramientas y técnicas a las actividades de un proyecto para:",
+            "pregunta": "05 - La 'Gestión de Proyectos' se define como la aplicación de conocimientos, herramientas y técnicas a las actividades de un proyecto para:",
             "opciones": {
-                "a": "Garantizar la promoción de los que no participaron.",
-                "b": "Satisfacer los requisitos del mismo.",
+                "a": "Satisfacer los requisitos del mismo.",
+                "b": "Garantizar la promoción de los que no participaron.",
                 "c": "Equilibrar las etapas humorísticas del proyecto.",
                 "d": "Asegurar que sea continuo en el tiempo."
             },
-            "correctas": ["b"],
+            "correctas": ["a"],
             "explicaciones_correctas": {
-                "b": "La gestión de proyectos es la aplicación de conocimientos, herramientas y técnicas a las actividades de un proyecto 'para satisfacer los requisitos del mismo'."
+                "a": "La gestión de proyectos es la aplicación de conocimientos, herramientas y técnicas a las actividades de un proyecto 'para satisfacer los requisitos del mismo'."
             }
         },
+
         {
-            "pregunta": "¿Cuál de las siguientes no es una de las 5 fases o procesos de la Gestión de Proyectos?",
+            "pregunta": "06 - ¿Cuál de las siguientes no es una de las 5 fases o procesos de la Gestión de Proyectos?",
             "opciones": {
                 "a": "Inicio.",
-                "b": "Planificación.",
-                "c": "Organización.",
+                "b": "Organización.",
+                "c": "Planificación.",
                 "d": "Cierre o Finalización."
             },
-            "correctas": ["c"],
+            "correctas": ["b"],
             "explicaciones_correctas": {
-                "c": "Los procesos son: Inicio, Planificación, Ejecución, Seguimiento y Control, Cierre o Finalización."
+                "b": "Los procesos son: Inicio, Planificación, Ejecución, Seguimiento y Control, Cierre o Finalización."
             }
         },
+
         {
-            "pregunta": "Según el Gerenciamiento de Proyectos, una de las actividades que se debe realizar es equilibrar las demandas concurrentes de:",
+            "pregunta": "07 - Según el Gerenciamiento de Proyectos, una de las actividades que se debe realizar es equilibrar las demandas concurrentes de:",
             "opciones": {
                 "a": "Recursos, tiempo y metodología.",
-                "b": "Calidad, alcance, tiempo y costos.",
-                "c": "Beneficiarios, hitos y tareas.",
+                "b": "Beneficiarios, hitos y tareas.",
+                "c": "Calidad, alcance, tiempo y costos.",
                 "d": "Funcionalidades, límites y justificación."
-            },
-            "correctas": ["b"],
-            "explicaciones_correctas": {
-                "b": "La Gestión de Proyectos incluye 'Equilibrar las demandas concurrentes de calidad, alcance, tiempo y costos'."
-            }
-        },
-        {
-            "pregunta": "¿Cuántas restricciones principales o parámetros acordados definen el proyecto en su conclusión?",
-            "opciones": {
-                "a": "Tres (Tiempo, Costo, Calidad).",
-                "b": "Cuatro (Alcance, Tiempo, Costo, Calidad).",
-                "c": "Cinco (Inicio, Planificación, Ejecución, Control, Cierre).",
-                "d": "Siete (las etapas humorísticas)."
-            },
-            "correctas": ["b"],
-            "explicaciones_correctas": {
-                "b": "Las Restricciones de un Proyecto son: Alcance, Tiempo, Costo y Calidad. (La conclusión menciona tiempo, costo y calidad, pero el conjunto de restricciones principales incluye el Alcance)."
-            }
-        },
-        {
-            "pregunta": "La etapa humorística de 'Confusión Total' es seguida inmediatamente por la etapa de:",
-            "opciones": {
-                "a": "Primeras desilusiones.",
-                "b": "Búsqueda de los culpables.",
-                "c": "Castigo a los inocentes.",
-                "d": "Aceptación inmediata."
-            },
-            "correctas": ["b"],
-            "explicaciones_correctas": {
-                "b": "Las etapas son: 1-Aceptación, 2-Entusiasmo, 3-Desilusiones, 4-Confusión Total, 5-Búsqueda de los culpables."
-            }
-        },
-        {
-            "pregunta": "En el Diagrama de Consecuencias ('Modelo Argentino'), si 'La cosa funciona', el resultado es:",
-            "opciones": {
-                "a": "Se puede culpar a otro.",
-                "b": "Problema resuelto.",
-                "c": "Todo bien.",
-                "d": "Hacete el boludo."
             },
             "correctas": ["c"],
             "explicaciones_correctas": {
-                "c": "El diagrama indica que si 'La cosa funciona' (SI) lleva a 'Se arregló' (SI), lo que finalmente conduce a 'Todo bien'."
+                "c": "La Gestión de Proyectos incluye 'Equilibrar las demandas concurrentes de calidad, alcance, tiempo y costos'."
             }
         },
+
         {
-            "pregunta": "Según los 'Tips para Gestionar Proyectos', no se debe comenzar un proyecto sin haber hecho un:",
+            "pregunta": "08 - ¿Cuántas restricciones principales o parámetros acordados definen el proyecto en su conclusión?",
+            "opciones": {
+                "a": "Tres (Tiempo, Costo, Calidad).",
+                "b": "Siete (las etapas emocionales).",
+                "c": "Cinco (Inicio, Planificación, Ejecución, Control, Cierre).",
+                "d": "Cuatro (Alcance, Tiempo, Costo, Calidad)."
+            },
+            "correctas": ["d"],
+            "explicaciones_correctas": {
+                "d": "Las Restricciones de un Proyecto son: Alcance, Tiempo, Costo y Calidad. (La conclusión menciona tiempo, costo y calidad, pero el conjunto de restricciones principales incluye el Alcance)."
+            }
+        },
+
+        {
+            "pregunta": "09 - Según los 'Tips para Gestionar Proyectos', no se debe comenzar un proyecto sin haber hecho un:",
             "opciones": {
                 "a": "Estudio de factibilidad.",
                 "b": "Cronograma de Gantt.",
@@ -145,86 +127,79 @@
                 "a": "'No comience un proyecto sin haber hecho un estudio de factibilidad'."
             }
         },
+
         {
-            "pregunta": "La premisa 'K.I.S.S.' (Keep It Simple, Stupid and Short) se aplica para evitar desviarse del proyecto, y significa:",
+            "pregunta": "10 - El propósito de un proyecto se logra mediante la fórmula:",
             "opciones": {
-                "a": "Manténgalo complejo, estúpido y corto.",
-                "b": "Manténgalo simple, estúpido y corto.",
-                "c": "Manténgalo simple, siempre y seguro.",
-                "d": "Manténgalo simple, tonto y sistemático."
-            },
-            "correctas": ["b"],
-            "explicaciones_correctas": {
-                "b": "K.I.S.S.: 'Keep It Simple, Stupid and Short' (Manténgalo simple, estúpido y corto)."
-            }
-        },
-        {
-            "pregunta": "Según la conclusión, el propósito de un proyecto se logra mediante la fórmula:",
-            "opciones": {
-                "a": "RECURSOS + TIEMPO = PROPÓSITO.",
-                "b": "CALIDAD + ALCANCE = OBJETIVO.",
+                "a": "CALIDAD + ALCANCE = OBJETIVO.",
+                "b": "RECURSOS + TIEMPO = PROPÓSITO.",
                 "c": "COSTO + TIEMPO = PRODUCTO.",
                 "d": "TAREAS + HITOS = METAS."
             },
-            "correctas": ["a"],
-            "explicaciones_correctas": {
-                "a": "RECURSOS + TIEMPO = PROPÓSITO."
-            }
-        },
-        {
-            "pregunta": "En el marco 'Cómo pensar un Proyecto', la pregunta 'QUÉ se quiere hacer' se relaciona con la:",
-            "opciones": {
-                "a": "Origen y Fundamentación.",
-                "b": "Naturaleza del Proyecto.",
-                "c": "Actividades y Tareas.",
-                "d": "Ámbito/Límites."
-            },
             "correctas": ["b"],
             "explicaciones_correctas": {
-                "b": "QUÉ se quiere hacer -> Naturaleza del Proyecto."
+                "b": "RECURSOS + TIEMPO = PROPÓSITO. Esta afirmación se desprende como conclusion de evaluar los aspectos principales para afrontar un proyecto"
             }
         },
+
         {
-            "pregunta": "La pregunta 'POR QUÉ se quiere hacer' dentro del marco de planificación, se relaciona con el:",
+            "pregunta": "11 - En el marco 'Cómo pensar un Proyecto', la pregunta 'QUÉ se quiere hacer' se relaciona con la:",
             "opciones": {
                 "a": "Origen y Fundamentación.",
-                "b": "Objetivos y Propósitos.",
-                "c": "Recursos Humanos.",
-                "d": "Calendario o Cronograma."
+                "b": "Actividades y Tareas.",
+                "c": "Naturaleza del Proyecto.",
+                "d": "Ámbito/Límites."
             },
-            "correctas": ["a"],
+            "correctas": ["c"],
             "explicaciones_correctas": {
-                "a": "POR QUÉ se quiere hacer -> Origen y Fundamentación."
+                "c": "QUÉ se quiere hacer -> Naturaleza del Proyecto."
             }
         },
+
         {
-            "pregunta": "La pregunta 'PARA QUÉ se quiere hacer' busca definir los:",
+            "pregunta": "12 - La pregunta 'POR QUÉ se quiere hacer' dentro del marco de planificación, se relaciona con el:",
             "opciones": {
-                "a": "Metas.",
+                "a": "Calendario o Cronograma.",
                 "b": "Objetivos y Propósitos.",
+                "c": "Recursos Humanos.",
+                "d": "Origen y Fundamentación."
+            },
+            "correctas": ["d"],
+            "explicaciones_correctas": {
+                "d": "POR QUÉ se quiere hacer -> Origen y Fundamentación."
+            }
+        },
+
+        {
+            "pregunta": "13 - La pregunta 'PARA QUÉ se quiere hacer' busca definir los:",
+            "opciones": {
+                "a": "Objetivos y Propósitos.",
+                "b": "Metas.",
                 "c": "Ámbito o Límites.",
                 "d": "Destinatarios o Beneficiarios."
             },
-            "correctas": ["b"],
+            "correctas": ["a"],
             "explicaciones_correctas": {
-                "b": "PARA QUÉ se quiere hacer -> Objetivos, Propósitos."
+                "a": "PARA QUÉ se quiere hacer -> Objetivos, Propósitos."
             }
         },
+
         {
-            "pregunta": "La pregunta 'CUÁNTO se quiere hacer' busca definir las:",
+            "pregunta": "14 - La pregunta 'CUÁNTO se quiere hacer' busca definir las:",
             "opciones": {
-                "a": "Metas.",
-                "b": "Actividades y Tareas.",
+                "b": "Metas.",
+                "a": "Actividades y Tareas.",
                 "c": "Recursos Materiales.",
                 "d": "Recursos Financieros."
             },
-            "correctas": ["a"],
+            "correctas": ["b"],
             "explicaciones_correctas": {
-                "a": "CUÁNTO se quiere hacer -> Metas."
+                "b": "CUÁNTO se quiere hacer -> Metas."
             }
         },
+
         {
-            "pregunta": "La pregunta 'DÓNDE se quiere hacer' busca definir el:",
+            "pregunta": "15 - La pregunta 'DÓNDE se quiere hacer' busca definir el:",
             "opciones": {
                 "a": "Calendario o Cronograma.",
                 "b": "Recursos Materiales.",
@@ -236,138 +211,149 @@
                 "c": "DÓNDE se quiere hacer -> Ámbito/Límites."
             }
         },
+
         {
-            "pregunta": "La pregunta 'CÓMO se va a hacer' en la planificación del proyecto, se relaciona con:",
+            "pregunta": "16 - La pregunta 'CÓMO se va a hacer' en la planificación del proyecto, se relaciona con:",
             "opciones": {
                 "a": "Metas.",
                 "b": "Recursos Humanos.",
-                "c": "Actividades y Tareas, Metodología.",
-                "d": "Destinatarios o Beneficiarios."
+                "c": "Destinatarios o Beneficiarios.",
+                "d": "Actividades y Tareas, Metodología."
             },
-            "correctas": ["c"],
+            "correctas": ["d"],
             "explicaciones_correctas": {
-                "c": "CÓMO se va a hacer -> Actividades y Tareas, Metodología."
+                "d": "CÓMO se va a hacer -> Actividades y Tareas, Metodología."
             }
         },
+
         {
-            "pregunta": "La pregunta 'CUÁNDO se va a hacer' en la planificación del proyecto, se relaciona con:",
+            "pregunta": "17 - La pregunta 'CUÁNDO se va a hacer' en la planificación del proyecto, se relaciona con:",
             "opciones": {
-                "a": "Recursos Financieros.",
+                "a": "Calendario o Cronograma (Ubicación en el tiempo).",
                 "b": "Recursos Humanos.",
-                "c": "Calendario o Cronograma (Ubicación en el tiempo).",
+                "c": "Recursos Financieros.",
                 "d": "Ámbito/Límites."
             },
-            "correctas": ["c"],
+            "correctas": ["a"],
             "explicaciones_correctas": {
-                "c": "CUÁNDO se va a hacer -> Calendarización o Cronograma (Ubicación en el tiempo)."
+                "a": "CUÁNDO se va a hacer -> Calendarización o Cronograma (Ubicación en el tiempo)."
             }
         },
+
         {
-            "pregunta": "La pregunta 'A QUIÉNES va dirigido' se relaciona con la definición de:",
+            "pregunta": "18 - La pregunta 'A QUIÉNES va dirigido' se relaciona con la definición de:",
             "opciones": {
                 "a": "Recursos Humanos.",
-                "b": "Recursos Materiales.",
-                "c": "Destinatarios o Beneficiarios.",
+                "b": "Destinatarios o Beneficiarios.",
+                "c": "Recursos Materiales.",
                 "d": "Metas."
             },
-            "correctas": ["c"],
+            "correctas": ["b"],
             "explicaciones_correctas": {
-                "c": "A QUIÉNES va dirigido -> Destinatarios o Beneficiarios."
+                "b": "A QUIÉNES va dirigido -> Destinatarios o Beneficiarios."
             }
         },
+
         {
-            "pregunta": "La pregunta 'QUIÉNES lo van a hacer' se relaciona con la definición de:",
+            "pregunta": "19 - La pregunta 'QUIÉNES lo van a hacer' se relaciona con la definición de:",
             "opciones": {
                 "a": "Recursos Financieros.",
-                "b": "Recursos Humanos.",
-                "c": "Metodología.",
+                "b": "Metodología.",
+                "c": "Recursos Humanos.",
                 "d": "Hitos."
             },
-            "correctas": ["b"],
+            "correctas": ["c"],
             "explicaciones_correctas": {
-                "b": "QUIÉNES lo van a hacer -> Recursos Humanos."
+                "c": "QUIÉNES lo van a hacer -> Recursos Humanos."
             }
         },
+
         {
-            "pregunta": "La pregunta 'CON QUÉ se va a hacer' y 'CON QUÉ se va a costear' se relaciona con:",
+            "pregunta": "20 - La pregunta 'CON QUÉ se va a hacer' y 'CON QUÉ se va a costear' se relaciona con:",
             "opciones": {
                 "a": "Actividades y Tareas.",
-                "b": "Recursos Materiales y Financieros.",
+                "b": "Origen y Fundamentación.",
                 "c": "Objetivos y Propósitos.",
-                "d": "Origen y Fundamentación."
+                "d": "Recursos Materiales y Financieros."
             },
-            "correctas": ["b"],
+            "correctas": ["d"],
             "explicaciones_correctas": {
-                "b": "CON QUÉ se va a hacer -> Recursos Materiales. CON QUÉ se va a costear -> Recursos Financieros."
+                "d": "CON QUÉ se va a hacer -> Recursos Materiales. CON QUÉ se va a costear -> Recursos Financieros."
             }
         },
+
         {
-            "pregunta": "En el contexto de la Gestión de Proyectos, una 'Meta' se define como:",
+            "pregunta": "21 - En el contexto de la Gestión de Proyectos, una 'Meta' se define como:",
             "opciones": {
-                "a": "El fin último y único del proyecto.",
+                "a": "Los pasos realizables que van a llevar a la realización del objetivo.",
                 "b": "Un momento específico del ciclo de vida.",
-                "c": "Los pasos realizables que van a llevar a la realización del objetivo.",
+                "c": "El fin último y único del proyecto.",
                 "d": "Un punto de referencia que no tiene duración."
             },
-            "correctas": ["c"],
+            "correctas": ["a"],
             "explicaciones_correctas": {
-                "c": "Metas: 'Son los pasos realizables que van a llevar a la realización del objetivo'."
+                "a": "Metas: 'Son los pasos realizables que van a llevar a la realización del objetivo'."
             }
         },
+
         {
-            "pregunta": "La definición de 'Meta' implica descomponer el objetivo en objetivos más chicos que marcan el:",
+            "pregunta": "22 - La definición de 'Meta' implica descomponer el objetivo en objetivos más chicos que marcan el:",
             "opciones": {
                 "a": "Límite del proyecto.",
-                "b": "Recurso humano.",
-                "c": "Roadmap o ruta para llegar.",
+                "b": "Roadmap o ruta para llegar.",
+                "c": "Recurso humano.",
                 "d": "Hito de decisión."
-            },
-            "correctas": ["c"],
-            "explicaciones_correctas": {
-                "c": "Las Metas se logran al 'Descomponer el objetivo en distintos objetivos mas chicos que van a marcarme el roadmap o ruta para llegar'."
-            }
-        },
-        {
-            "pregunta": "Un 'Hito' se utiliza principalmente para:",
-            "opciones": {
-                "a": "Establecer la duración y fecha de inicio de las tareas.",
-                "b": "Medir el progreso del proyecto hasta el final.",
-                "c": "Definir los recursos humanos y materiales.",
-                "d": "Redactar el objetivo con un verbo en infinitivo."
             },
             "correctas": ["b"],
             "explicaciones_correctas": {
-                "b": "Los Hitos 'Se utilizan para medir el progreso del proyecto'."
+                "b": "Las Metas se logran al 'Descomponer el objetivo en distintos objetivos mas chicos que van a marcarme el roadmap o ruta para llegar'."
             }
         },
+
         {
-            "pregunta": "La característica clave de un 'Hito' respecto al tiempo es:",
+            "pregunta": "23 - Un 'Hito' se utiliza principalmente para:",
+            "opciones": {
+                "a": "Establecer la duración y fecha de inicio de las tareas.",
+                "b": "Definir los recursos humanos y materiales.",
+                "c": "Medir el progreso del proyecto hasta el final.",
+                "d": "Redactar el objetivo con un verbo en infinitivo."
+            },
+            "correctas": ["c"],
+            "explicaciones_correctas": {
+                "c": "Los Hitos 'Se utilizan para medir el progreso del proyecto'."
+            }
+        },
+
+        {
+            "pregunta": "24 - La característica clave de un 'Hito' respecto al tiempo es:",
             "opciones": {
                 "a": "Tener una duración estricta.",
                 "b": "Tener una fecha de fin flexible.",
-                "c": "Tener una fecha fija pero no una duración.",
-                "d": "No tener ni fecha ni duración, solo una descripción."
+                "c": "No tener ni fecha ni duración, solo una descripción.",
+                "d": "Tener una fecha fija pero no una duración."
             },
-            "correctas": ["c"],
+            "correctas": ["d"],
             "explicaciones_correctas": {
-                "c": "Los Hitos 'Tienen una fecha fija pero no una duración'."
+                "d": "Los Hitos 'Tienen una fecha fija pero no una duración'."
             }
         },
+
         {
-            "pregunta": "El proceso de 'Seguimiento y Control' en la Gestión de Proyectos se aplica en conjunto con:",
+            "pregunta": "25 - El proceso de 'Seguimiento y Control' en la Gestión de Proyectos se aplica en conjunto con:",
             "opciones": {
-                "a": "Inicio.",
+                "a": "Ejecución.",
                 "b": "Planificación.",
-                "c": "Ejecución.",
+                "c": "Inicio.",
                 "d": "Cierre o Finalización."
             },
-            "correctas": ["c"],
+            "correctas": ["a"],
             "explicaciones_correctas": {
-                "c": "Los procesos son: Inicio, Planificación, Ejecución, Seguimiento y Control, Cierre o Finalización. Seguimiento y Control y Ejecución generalmente operan en paralelo en el ciclo de vida."
+                "a": "Los procesos son: Inicio, Planificación, Ejecución, Seguimiento y Control, Cierre o Finalización. Seguimiento y Control y Ejecución generalmente operan en paralelo en el ciclo de vida."
             }
         },
+
         {
-            "pregunta": "Una de las inclusiones de la Gestión de Proyectos es 'Adaptar las especificaciones, los planes y el enfoque' a las diversas inquietudes y expectativas de los diferentes:",
+            "pregunta": "26 - Una de las inclusiones de la Gestión de Proyectos es 'Adaptar las especificaciones, los planes y el enfoque' a las diversas inquietudes y expectativas de los diferentes:",
             "opciones": {
                 "a": "Programadores.",
                 "b": "Interesados.",
@@ -378,19 +364,7 @@
             "explicaciones_correctas": {
                 "b": "La Gestión de Proyectos incluye 'Adaptar las especificaciones, los planes y el enfoque a las diversas inquietudes y expectativas de los diferentes interesados'."
             }
-        },
-        {
-            "pregunta": "El 'viejo cuento' con los personajes 'Todos, Alguien, Cualquiera y Nadie' se utiliza para destacar la importancia de evitar:",
-            "opciones": {
-                "a": "La búsqueda de los culpables.",
-                "b": "La falta de responsabilidades claras.",
-                "c": "El entusiasmo salvaje.",
-                "d": "Las primeras desilusiones."
-            },
-            "correctas": ["b"],
-            "explicaciones_correctas": {
-                "b": "El cuento 'Los Proyectos de TODOS no son de Nadie' ilustra el problema de la falta de asignación clara de responsabilidades, donde 'Nadie hizo lo que hubiera podido hacer Cualquiera'."
-            }
         }
+
     ]
 }

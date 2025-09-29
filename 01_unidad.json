@@ -76,7 +76,7 @@
                 "d": "No hay piezas de repuesto.",
                 "e": "Se construye a medida."
             },
-            "correctas": ["b"],
+            "correctas": ["e"],
             "explicaciones_correctas": {
                 "e": "Aunque existan productos de software de propósito general (ej. navegadores, procesadores de texto), en ingeniería de software se suele trabajar en soluciones personalizadas para un contexto concreto."
             }
@@ -108,7 +108,7 @@
             }
         },
         {
-            "pregunta": "09 - ¿Qué término se define en el documento como 'Solicitudes que hace el cliente' y 'Metas a cumplir'?",
+            "pregunta": "09 - ¿Qué término se define como 'Solicitudes que hace el cliente' y 'Metas a cumplir'?",
             "opciones": {
                 "a": "Técnicas.",
                 "b": "Ciclo de Vida.",
@@ -121,7 +121,7 @@
             }
         },
         {
-            "pregunta": "10 - El concepto de 'Ciclo de Vida' se describe como:",
+            "pregunta": "10 - El concepto de 'Ciclo de Vida' de un software se describe como:",
             "opciones": {
                 "a": "Conjunto de instrucciones puestas en conjunto.",
                 "b": "Todo un proceso que transcurre en un producto desde el inicio hasta su finalización.",
@@ -188,7 +188,7 @@
             }
         },
         {
-            "pregunta": "15 - La diferencia clave entre el atributo 'Correcto' y 'No Erróneo'(bell 2000) es:",
+            "pregunta": "15 - La diferencia clave entre el atributo 'Correcto' y 'No Erróneo'(Bell 2000) es:",
             "opciones": {
                 "a": "Correcto se enfoca en el coste, No Erróneo en la fiabilidad.",
                 "b": "Correcto se enfoca en las especificaciones del usuario, No Erróneo en la diferencia entre valores reales y calculados.",
@@ -201,7 +201,7 @@
             }
         },
         {
-            "pregunta": "16 - Atributos de calidad bell 2000; 'La modificación de alguna función sin que afecte a las actividades' se relaciona con ...",
+            "pregunta": "16 - Atributos de calidad Bell 2000; 'La modificación de alguna función sin que afecte a las actividades' se relaciona con ...",
             "opciones": {
                 "a": "Portable.",
                 "b": "Adaptable (Extensibilidad).",
@@ -209,7 +209,7 @@
                 "d": "No erroneo.",
                 "e": "Reutilizable (reusabilidad)."
             },
-            "correctas": ["c"],
+            "correctas": ["b"],
             "explicaciones_correctas": {
                 "b": "Este es el atributo 'Adaptable (Extensibilidad)'."
             }
@@ -267,7 +267,7 @@
             }
         },
         {
-            "pregunta": "21 - Según el documento, los ingenieros de Software adoptan un enfoque <sistemático> para llevar a cabo su trabajo, ¿qué más utilizan?",
+            "pregunta": "21 - Los ingenieros de Software adoptan un enfoque <sistemático> para llevar a cabo su trabajo, ¿qué más utilizan?",
             "opciones": {
                 "a": "Únicamente principios científicos para la matemática.",
                 "b": "Solo la programación de bajo nivel.",
@@ -354,7 +354,7 @@
             },
             "correctas": ["b"],
             "explicaciones_correctas": {
-                "b": "Los Los Proceos o Procedimientos 'Definen la secuencia en la que se aplican los métodos, cómo usar las herramientas, las entregas que se requieren...'."
+                "b": "Punto de unión entre métodos y herramientas. Definen la secuencia en la que se aplican los métodos, cómo usar las herramientas, las entregas que se requieren, controles de seguimiento y calidad, guías para facilitar la labor de gestores y desarrolladores, etc.'"
             }
         },
         {
@@ -384,7 +384,7 @@
             }
         },
         {
-            "pregunta": "30 - La etapa de 'Desarrollo' consiste en:",
+            "pregunta": "30 -Etapas de la Ingenieria de Software -  La etapa de 'Desarrollo' consiste en:",
             "opciones": {
                 "a": "Crear las especificaciones de calidad.",
                 "b": "Garantizar que los elementos individuales presentan las características requeridas.",
@@ -488,16 +488,15 @@
             }
         },
         {
-            "pregunta": "38 - Actividades de contol del Ingeniero de software; ¿Qué elemento incluye la 'Gestión de configuraciones'",
+            "pregunta": "38 - Actividades de contol del Ingeniero de software son 3; Metricas - Garantía de calidad - gestion de configuraciones. ¿cúal afirmación no es correcta?",
             "opciones": {
-                "a": "La precisión en las estimaciones de costo.",
-                "b": "Mantener los sistemas, los servidores y el soft en un estado deseado.",
-                "c": "La comparación de funcionalidades del software.",
-                "d": "La dirección de proyectos."
+                "a": "Métricas: Se relaciona con las dimensiones del proyecto, escala de las instalaciones en donde se desarrollara la implementacion del software.",
+                "b": "Garantia de calidad: Sistema de principios, métodos, protocolos y procedimientos establecidos y mantenidos para garantizar la calidad de los productos y servicios, y cumpla con los estándares organizacionales y regulatorios.",
+                "c": "Gestión de Configuraciones: Busca mantener los sistemas, los servidores y el soft en un estado deseado. Permite garantizar que un sistema funcione como se espera a medida que se realizan cambios."                
             },
-            "correctas": ["b"],
+            "correctas": ["a"],
             "explicaciones_correctas": {
-                "b": "<Métricas>: Medir costos, funcionalidades y decisiones costo_beneficio // <Garantía de Calidad>: Procesos que aseguran cumplimiento de estándares. //  <Gestión de Configuraciones>: Mantener software y entorno en estado controlado.."
+                "a": "La afirmacion correcta es; Metricas: Precisión en las estimaciones de costo, comparación de funcionalidades del soft y tomar decisiones en base al costo beneficio, etc."
             }
         }
     ]
