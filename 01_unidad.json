@@ -168,9 +168,9 @@
                 "d": "No erroneo.",
                 "e": "Reutilizable (reusabilidad)."
             },
-            "correctas": ["c"],
+            "correctas": ["a"],
             "explicaciones_correctas": {
-                "c": "El atributo 'Portable' es 'Capaz de integrarse en entornos distintos con el mismo esfuerzo'."
+                "a": "El atributo 'Portable' es 'Capaz de integrarse en entornos distintos con el mismo esfuerzo'."
             }
         },
         {
